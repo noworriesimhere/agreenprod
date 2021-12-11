@@ -12,7 +12,7 @@
     <main-section theme="one-column">
       <template v-slot:default>
         <!-- All Posts -->
-        <markdown :markdown="$store.state.content" />
+        <posts-grid />
       </template>
       <template v-slot:sidebar>
         Nothing here
@@ -26,7 +26,6 @@
 import { mapState } from 'vuex'
 import { setPageData } from '../helper'
 import NewsLetterFormModal from '~/components/NewsLetterFormModal'
-import Markdown from '~/components/Markdown'
 
 export default {
   name: 'HomePage',
@@ -36,14 +35,13 @@ export default {
     }
   },
   components: {
-    NewsLetterFormModal,
-    Markdown
+    NewsLetterFormModal
   },
   computed: {
     ...mapState(['title', 'subtitle', 'featureImage'])
   },
   fetch({ store, params }) {
-    setPageData(store, { resource: 'page', slug: 'home' })
+    setPageData(store, { slug: 'home' })
   }
 }
 </script>

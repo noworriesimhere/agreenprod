@@ -3,8 +3,8 @@
     {{ $siteConfig.siteName }} &copy; {{ new Date().getFullYear() }} - All
     Rights Reserved
     <br />
-    Made with <span style="color: #e25555;">&#9829;</span> with Nuxt.js and
-    Netlify
+    Website made by a Freelance Web Developer
+    <a href="https://alantran.tech"> Alan Tran</a>
   </footer>
 </template>
 
