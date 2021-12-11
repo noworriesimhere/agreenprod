@@ -24,10 +24,10 @@ import NewsLetterFormModal from '~/components/NewsLetterFormModal'
 import Markdown from '~/components/Markdown'
 
 export default {
-  name: 'Offerings',
+  name: 'ArtistsPartners',
   head() {
     return {
-      title: `Offerings | ${this.$siteConfig.siteName}`
+      title: `Artists & Partners | ${this.$siteConfig.siteName}`
     }
   },
   components: {
@@ -38,7 +38,7 @@ export default {
     ...mapState(['title', 'subtitle', 'featureImage'])
   },
   fetch({ store, params }) {
-    setPageData(store, { resource: 'page', slug: 'offerings' })
+    setPageData(store, { resource: 'page', slug: 'artists-partners' })
   }
 }
 </script>

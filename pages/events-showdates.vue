@@ -1,9 +1,6 @@
 <template>
   <div id="home-page" class="page-wrapper home-page">
     <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
-      <button class="button is-primary">
-        {{ $route.name }}
-      </button>
     </site-hero>
     <main-section theme="one-column">
       <template v-slot:default>
@@ -24,10 +21,10 @@ import NewsLetterFormModal from '~/components/NewsLetterFormModal'
 import Markdown from '~/components/Markdown'
 
 export default {
-  name: 'Offerings',
+  name: 'EventsShowdates',
   head() {
     return {
-      title: `Offerings | ${this.$siteConfig.siteName}`
+      title: `Events & Show Dates | ${this.$siteConfig.siteName}`
     }
   },
   components: {
@@ -38,7 +35,7 @@ export default {
     ...mapState(['title', 'subtitle', 'featureImage'])
   },
   fetch({ store, params }) {
-    setPageData(store, { resource: 'page', slug: 'offerings' })
+    setPageData(store, { resource: 'page', slug: 'events-showdates' })
   }
 }
 </script>
