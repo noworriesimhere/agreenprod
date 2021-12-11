@@ -52,4 +52,8 @@ export default {
 .home-page .under-subtitle {
   border-top: none;
 }
+
+.section {
+  text-align: center;
+}
 </style>
