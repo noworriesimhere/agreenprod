@@ -5,18 +5,12 @@ featureImage: /uploads/daniel.jpg
 ---
 # Deliverables - Original Creative,  Digital Video & Finished Copy-Driven Content, Programs
 
-
-
 ## Applications
-
-
 
 ### Creative Project / Program Development
 
 * ‘The Angle’, ‘The Look’
 * Social Media Coaching
-
-
 
 ### Writing / Editorial Services
 
@@ -25,14 +19,10 @@ featureImage: /uploads/daniel.jpg
 * Fiction
 * Drama
 
-
-
 ### Producer Services
 
 * Song Development; arrangement and recording
 * Video Production
-
-
 
 ### Entertainment Deliverables
 
@@ -40,8 +30,6 @@ featureImage: /uploads/daniel.jpg
 * Original Music Recordings
 * Music Video Productions
 * On-Demand and Live Feeds - Audio and Video
-
-
 
 ### Marketing and PR Services
 
@@ -51,21 +39,15 @@ featureImage: /uploads/daniel.jpg
 * ‘Package’ development and distribution
 * Video News Releases (VNR’s)
 
-
-
 ### Live Entertainment / Events
 
 * Deployment  of talent for specific events and venues
 * Matching performers with gigs
 
-
-
 ### Artist Development and A&R Services
 
 * Image and on-camera coaching services
 * Artistic Direction and Producer services
-
-
 
 ### Innovation
 
@@ -73,6 +55,8 @@ featureImage: /uploads/daniel.jpg
 * Indoor-outdoor, Hybrid 
 * Virtual reality
 
-
-
 *Put aside the pain.*
+<h1>TEST</h1>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5yx6BWlEVcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
