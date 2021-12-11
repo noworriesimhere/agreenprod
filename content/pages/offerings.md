@@ -56,7 +56,9 @@ featureImage: /uploads/daniel.jpg
 * Virtual reality
 
 *Put aside the pain.*
+
+
+
+<iframe width="560" height="515" src="https://www.youtube.com/embed/5yx6BWlEVcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 515px"></iframe>
+
 <h1>TEST</h1>
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5yx6BWlEVcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
