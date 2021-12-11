@@ -3,62 +3,32 @@ title: AGreen Productions
 subtitle: Ideation, Writing, Producing, Consulting
 featureImage: /uploads/home.jpg
 ---
-# Deliverables - Original Creative,  Digital Video & Finished Copy-Driven Content, Programs
+You know quality production when you see or hear it. 
 
-## Applications
+We help to deliver quality through creative consultation, 
+project management and artist-driven deliverables.
 
-### Creative Project / Program Development
+You strive to deliver ‘classic’, entertaining content; 
+material that makes people think and feel on deeper levels. 
+That might be as a purveyor or as an artist.
 
-* ‘The Angle’, ‘The Look’
-* Social Media Coaching
+We want to help you to really reach people. 
 
-### Writing / Editorial Services
+Together, we will be part of a creative effort where 
+our combined talents and skills can be most effective.
 
-* Promotional / PR Copy
-* Songs/Jingles
-* Fiction
-* Drama
+A 				First rate artistry
+Green 	  	=        backed by a proven name
+Production  	 	delivered well
 
-### Producer Services
-
-* Song Development; arrangement and recording
-* Video Production
-
-### Entertainment Deliverables
-
-* Original Songs and Compositions
-* Original Music Recordings
-* Music Video Productions
-* On-Demand and Live Feeds - Audio and Video
-
-### Marketing and PR Services
-
-* Brand development
-* Gig and tour promo
-* Social amplification
-* ‘Package’ development and distribution
-* Video News Releases (VNR’s)
-
-### Live Entertainment / Events
-
-* Deployment  of talent for specific events and venues
-* Matching performers with gigs
-
-### Artist Development and A&R Services
-
-* Image and on-camera coaching services
-* Artistic Direction and Producer services
-
-### Innovation
-
-* Outside distance events
-* Indoor-outdoor, Hybrid 
-* Virtual reality
-
-*Put aside the pain.*
+Everyone wants to be moved. We do our best to move 
+people in a positive direction.
 
 
 
-<iframe width="560" height="515" src="https://www.youtube.com/embed/5yx6BWlEVcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 515px"></iframe>
+    You’ll enjoy the fruits 
+of every seed you’ve sown.
 
-<h1>TEST</h1>
+AGreen supports positive karma 
+with initiatives that bring large 
+benefits to targeted audiences.

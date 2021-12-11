@@ -2,7 +2,7 @@ backend:
   # name: proxy #comment out in production
   # proxy_url: http://localhost:8081/api/v1 #comment out in production
   name: git-gateway
-  repo: noworriesimhere/awake-template
+  repo: noworriesimhere/agreenprod
   branch: master # Branch to update (optional; defaults to master)
 local_backend: true #comment this out in production
 
