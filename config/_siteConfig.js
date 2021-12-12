@@ -12,7 +12,7 @@ export default {
   siteName: 'AGreen Production',
   tagline: 'Independent. Creative. Effective',
   featureImage: '/uploads/home.jpg',
-  logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
+  logo: 'logo.jpg', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: process.env.GOOGLE_ANALYTICS_ID
@@ -23,12 +23,24 @@ export default {
       link: '/about'
     },
     {
-      name: 'Contact',
-      link: '/contact'
+      name: 'Offerings',
+      link: '/offerings'
     },
     {
-      name: 'Categories',
+      name: 'Artists / Partners',
+      link: '/artists-partners'
+    },
+    {
+      name: 'Listen / Watch',
+      link: '/listen-watch'
+    },
+    {
+      name: 'Events / Show Dates',
       link: '/categories'
+    },
+    {
+      name: 'Contact',
+      link: '/contact'
     }
     // {
     //   name: 'Github Repo',
@@ -61,7 +73,7 @@ export default {
 
   // Newsletter Subscribe
   newsletter: {
-    on: true,
+    on: false,
     heading: 'Subscribe to Our Newsletter',
     btnText: 'Subscribe',
     // Can be the form action on a mail chimp form, a hubspot form,
