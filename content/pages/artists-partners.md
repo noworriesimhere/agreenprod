@@ -1,64 +1,52 @@
 ---
-title: Artists & Partners
-subtitle: Ideation, Writing, Producing, Consulting
+title: Featured Artists
+subtitle: 
 featureImage: /uploads/daniel.jpg
 ---
-# Deliverables - Original Creative,  Digital Video & Finished Copy-Driven Content, Programs
+According to Florida law, ‘talent agency’ means any person who, for compensation, engages in the occupation or business of procuring or attempting to procure engagements for an artist. If you would like to engage with any of these artists for personal appearances, please contact the artist directly. AGreen Production represents the efforts of artists as ‘deliverables’, not as ‘artist for hire’.  Engagement” means any employment or placement of an artist, where the artist performs in his or her artistic capacity. However, the term “engagement” shall not apply to procuring opera, music, theater, or dance engagements for any organization defined in s. 501(c)(3) of the Internal Revenue Code or any nonprofit Florida arts organization that has received a grant from the Division of Cultural Affairs of the Department of State or has participated in the state touring program of the Division of Cultural Affairs.
 
-## Applications
-
-### Creative Project / Program Development
-
-* ‘The Angle’, ‘The Look’
-* Social Media Coaching
-
-### Writing / Editorial Services
-
-* Promotional / PR Copy
-* Songs/Jingles
-* Fiction
-* Drama
-
-### Producer Services
-
-* Song Development; arrangement and recording
-* Video Production
-
-### Entertainment Deliverables
-
-* Original Songs and Compositions
-* Original Music Recordings
-* Music Video Productions
-* On-Demand and Live Feeds - Audio and Video
-
-### Marketing and PR Services
-
-* Brand development
-* Gig and tour promo
-* Social amplification
-* ‘Package’ development and distribution
-* Video News Releases (VNR’s)
-
-### Live Entertainment / Events
-
-* Deployment  of talent for specific events and venues
-* Matching performers with gigs
-
-### Artist Development and A&R Services
-
-* Image and on-camera coaching services
-* Artistic Direction and Producer services
-
-### Innovation
-
-* Outside distance events
-* Indoor-outdoor, Hybrid 
-* Virtual reality
-
-*Put aside the pain.*
+Chip Green 
+(aka GreenGo, HipsterG and other characters)
+* Singer-Songwriter-Producer
+* Chip plays mostly private gigs
+  and smaller venues
+* Link to music samples
 
 
+Mike Golembeski 
+(aka MikeyG, Mike Francis)
+* Songwriter-Musician-Producer
+* Mike plays mostly private gigs
+   with a variety of acts
+* Link to music samples
 
-<iframe width="560" height="515" src="https://www.youtube.com/embed/5yx6BWlEVcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 515px"></iframe>
 
-<h1>TEST</h1>
+Wes Malkin 
+(with The Folk Weasels)
+* Musician-Producer
+* Videography, Graphics, Editing
+* Wes supports a wide range of
+   for-profit and not-for-profit
+   projects with a ‘can-do’ spirit
+* Link to music samples
+
+
+Andrea Preston
+* Singer-Songwriter
+* Graphic artist, instructor
+* Link to music samples
+
+
+Brayan Perez
+* Trombone
+* Cuban-born, ‘fresh’ 
+* Link to music samples
+
+
+You?
+* Ready to JOIN the AGreen team?
+
+Our Partners
+Talent agency
+Graphic design
+Green Ink - when the budget allows for that extra ‘corporate’ sophistication for your video or other media project.

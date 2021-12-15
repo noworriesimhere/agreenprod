@@ -54,6 +54,7 @@ export default {
 }
 
 .section {
-  text-align: center;
+  /* text-align: center; */
+  /* max-width: 600px; */
 }
 </style>

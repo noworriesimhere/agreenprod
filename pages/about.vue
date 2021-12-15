@@ -1,12 +1,14 @@
 <template>
   <div id="about-page" class="page-wrapper about-page content-page">
-    <site-hero
-      title="About Us"
-      subtitle="Example About Page"
-      image="/uploads/about-hero.jpg"
-    ></site-hero>
-    <main-section theme="sidebar-right">
+    <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
+    </site-hero>
+    <!-- <main-section theme="sidebar-right"> -->
+    <main-section>
       <template v-slot:default>
+        <!-- All Posts -->
+        <markdown :markdown="$store.state.content" />
+      </template>
+      <!-- <template v-slot:default>
         <div class="content">
           <h3>Fake Heading</h3>
           <p>
@@ -90,18 +92,31 @@
           Latest Posts
         </h3>
         <posts-grid :per-row="1" :number="2" />
-      </template>
+      </template> -->
     </main-section>
   </div>
 </template>
 <script>
-import QuoteCard from '~/components/cards/QuoteCard'
+// import QuoteCard from '~/components/cards/QuoteCard'
+import { mapState } from 'vuex'
+import { setPageData } from '../helper'
+import Markdown from '~/components/Markdown'
 export default {
   head() {
     return {
       title: `About | ${this.$siteConfig.siteName}`
     }
   },
-  components: { QuoteCard }
+  components: {
+    // NewsLetterFormModal,
+    Markdown
+  },
+  computed: {
+    ...mapState(['title', 'subtitle', 'featureImage'])
+  },
+  fetch({ store, params }) {
+    setPageData(store, { resource: 'page', slug: 'about' })
+  }
+  // components: { QuoteCard }
 }
 </script>

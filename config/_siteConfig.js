@@ -35,7 +35,7 @@ export default {
       link: '/listen-watch'
     },
     {
-      name: 'Events / Show Dates',
+      name: 'Events / Press',
       link: '/categories'
     },
     {

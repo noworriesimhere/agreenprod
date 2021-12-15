@@ -16,6 +16,23 @@ We want to help you to really reach people.
 
 Together, we will be part of a creative effort where 
 our combined talents and skills can be most effective.
+<section class="section">
+  <p class="c3">
+    <span class="c5">
+      A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First rate artistry
+    </span>
+  </p>
+  <p class="c3">
+    <span class="c5">
+      Green &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= &nbsp; &nbsp; &nbsp; &nbsp;backed by a proven name
+    </span>
+  </p>
+  <p class="c3">
+    <span class="c5">
+      Production &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;delivered well
+    </span>
+  </p>
+</section>
 
 A 				   First rate artistry
 Green 	  	=         backed by a proven name

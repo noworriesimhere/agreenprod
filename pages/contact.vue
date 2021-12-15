@@ -2,7 +2,7 @@
   <div id="contact-page" class="page-wrapper contact-page content-page">
     <site-hero
       title="Contact Us"
-      subtitle="Example Contact Page"
+      subtitle="There's no conversation without contact"
       image="/uploads/contact-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
@@ -28,22 +28,38 @@
               <div class="content">
                 <p>
                   <strong>
-                    Edit this page in<code>/pages/contact.vue</code>to fit your
-                    needs.
+                    Contact Us!
                   </strong>
                 </p>
                 <p>
-                  This form doesn't actually work but would be easy enough to
+                  We'd love to hear from you
+                  <!-- This form doesn't actually work but would be easy enough to
                   slap an action on to have it post wherever you'd like. Or put
                   the netlify attribute on it and have netlify handle all your
-                  form submissions...
+                  form submissions... -->
                 </p>
               </div>
             </article>
           </div>
           <div class="tile is-parent is-8">
             <article class="tile is-child box">
-              <contact-form />
+              <!-- <contact-form /> -->
+              <p>
+                Every conversation begins with a single word, but there can be
+                no conversation without contact. Please hit us up!
+                <br />
+                AGreen Production
+                <br />
+                1812 Fillmore Street
+                <br />
+                Hollywood, FL 33139
+                <br />
+                860-460-6765
+                <br />
+                info@AGreenProd.com
+                <br />
+                Agreenprod.com
+              </p>
             </article>
           </div>
         </div>
@@ -59,13 +75,13 @@
   </div>
 </template>
 <script>
-import ContactForm from '~/components/ContactForm'
+// import ContactForm from '~/components/ContactForm'
 export default {
   head() {
     return {
       title: `Contact | ${this.$siteConfig.siteName}`
     }
-  },
-  components: { ContactForm }
+  }
+  // components: { ContactForm }
 }
 </script>
