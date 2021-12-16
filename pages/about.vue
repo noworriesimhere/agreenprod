@@ -102,11 +102,11 @@ import { mapState } from 'vuex'
 import { setPageData } from '../helper'
 import Markdown from '~/components/Markdown'
 export default {
-  head() {
-    return {
-      title: `About | ${this.$siteConfig.siteName}`
-    }
-  },
+  // head() {
+  //   return {
+  //     title: `About | ${this.$siteConfig.siteName}`
+  //   }
+  // },
   components: {
     // NewsLetterFormModal,
     Markdown

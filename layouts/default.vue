@@ -14,7 +14,7 @@
 <script>
 import 'animate.css/animate.min.css'
 export default {
-  transition: 'slide-fade',
+  transition: 'test',
   head() {
     return {
       title: `${this.$store.state.title} | ${this.$siteConfig.siteName}`,

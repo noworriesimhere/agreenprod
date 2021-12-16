@@ -21,12 +21,12 @@ import NewsLetterFormModal from '~/components/NewsLetterFormModal'
 import Markdown from '~/components/Markdown'
 
 export default {
-  name: 'ListenWatch',
-  head() {
-    return {
-      title: `Listen & Watch | ${this.$siteConfig.siteName}`
-    }
-  },
+  // name: 'ListenWatch',
+  // head() {
+  //   return {
+  //     title: `Listen & Watch | ${this.$siteConfig.siteName}`
+  //   }
+  // },
   components: {
     NewsLetterFormModal,
     Markdown

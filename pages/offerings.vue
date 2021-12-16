@@ -21,12 +21,12 @@ import NewsLetterFormModal from '~/components/NewsLetterFormModal'
 import Markdown from '~/components/Markdown'
 
 export default {
-  name: 'Offerings',
-  head() {
-    return {
-      title: `Offerings | ${this.$siteConfig.siteName}`
-    }
-  },
+  // name: 'Offerings',
+  // head() {
+  //   return {
+  //     title: `Offerings | ${this.$siteConfig.siteName}`
+  //   }
+  // },
   components: {
     NewsLetterFormModal,
     Markdown

@@ -29,12 +29,12 @@ import { setPageData } from '../helper'
 import Markdown from '~/components/Markdown'
 
 export default {
-  name: 'HomePage',
-  head() {
-    return {
-      title: `Home | ${this.$siteConfig.siteName}`
-    }
-  },
+  // name: 'HomePage',
+  // head() {
+  //   return {
+  //     title: `Home | ${this.$siteConfig.siteName}`
+  //   }
+  // },
   components: {
     // NewsLetterFormModal,
     Markdown
@@ -53,8 +53,8 @@ export default {
   border-top: none;
 }
 
-.section {
-  /* text-align: center; */
-  /* max-width: 600px; */
-}
+/* .section {
+  text-align: center;
+  max-width: 600px;
+} */
 </style>
