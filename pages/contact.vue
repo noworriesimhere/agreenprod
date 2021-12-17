@@ -77,6 +77,7 @@
 <script>
 // import ContactForm from '~/components/ContactForm'
 export default {
+  name: 'Contact'
   // head() {
   //   return {
   //     title: `Contact | ${this.$siteConfig.siteName}`

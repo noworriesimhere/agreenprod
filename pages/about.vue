@@ -102,6 +102,7 @@ import { mapState } from 'vuex'
 import { setPageData } from '../helper'
 import Markdown from '~/components/Markdown'
 export default {
+  name: 'About',
   // head() {
   //   return {
   //     title: `About | ${this.$siteConfig.siteName}`

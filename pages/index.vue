@@ -29,7 +29,7 @@ import { setPageData } from '../helper'
 import Markdown from '~/components/Markdown'
 
 export default {
-  // name: 'HomePage',
+  name: 'HomePage',
   // head() {
   //   return {
   //     title: `Home | ${this.$siteConfig.siteName}`

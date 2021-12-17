@@ -21,7 +21,7 @@ import NewsLetterFormModal from '~/components/NewsLetterFormModal'
 import Markdown from '~/components/Markdown'
 
 export default {
-  // name: 'ListenWatch',
+  name: 'ListenWatch',
   // head() {
   //   return {
   //     title: `Listen & Watch | ${this.$siteConfig.siteName}`

@@ -21,7 +21,7 @@ import NewsLetterFormModal from '~/components/NewsLetterFormModal'
 import Markdown from '~/components/Markdown'
 
 export default {
-  // name: 'EventsShowdates',
+  name: 'EventsShowdates',
   // head() {
   //   return {
   //     title: `Events & Show Dates | ${this.$siteConfig.siteName}`

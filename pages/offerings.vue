@@ -21,7 +21,7 @@ import NewsLetterFormModal from '~/components/NewsLetterFormModal'
 import Markdown from '~/components/Markdown'
 
 export default {
-  // name: 'Offerings',
+  name: 'Offerings',
   // head() {
   //   return {
   //     title: `Offerings | ${this.$siteConfig.siteName}`
