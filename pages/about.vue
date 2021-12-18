@@ -21,18 +21,24 @@
             <strong>Flexibility</strong>
           </p>
           <p class="description">
+            <i class="fas fa-magic fa-3x"></i>
+            <br />
             Confidence that your deliverables will prove their value.
           </p>
           <p class="subtitle">
             <strong>Trust</strong>
           </p>
           <p class="description">
+            <i class="fas fa-handshake fa-3x"></i>
+            <br />
             Per diem, per project or per program pricing available.
           </p>
           <p class="subtitle">
             <strong>Impact</strong>
           </p>
           <p class="description">
+            <i class="fas fa-bolt fa-3x"></i>
+            <br />
             Context is key. Benchmarks established, metrics recorded and then
             analyzed.
           </p>
@@ -41,7 +47,7 @@
         <div class="tile is-ancestor">
           <div class="tile is-parent">
             <article class="tile is-child box">
-              <figure class="image is-3by4 ">
+              <figure class="image is-1by1 ">
                 <opti-image
                   :src="require('~/assets/uploads/chip-308.jpg').src"
                   :srcset="require('~/assets/uploads/chip-308.jpg').srcSet"
@@ -112,12 +118,17 @@ export default {
   padding: 4rem;
   text-align: center;
 
-  .title {
-    color: $primary;
-  }
-
   .description {
     padding-bottom: 2rem;
   }
+
+  .fas {
+    color: $primary;
+    padding-bottom: 2rem;
+  }
+}
+
+.title {
+  color: $primary;
 }
 </style>

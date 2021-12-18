@@ -14,7 +14,7 @@
 <script>
 import 'animate.css/animate.min.css'
 export default {
-  transition: 'test',
+  transition: 'slide-fade',
   head() {
     return {
       title: `${this.$store.state.title} | ${this.$siteConfig.siteName}`,
@@ -109,6 +109,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import 'https://pro.fontawesome.com/releases/v5.10.0/css/all.css';
 body {
   overflow: hidden;
 }

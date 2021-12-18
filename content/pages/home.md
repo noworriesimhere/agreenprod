@@ -1,7 +1,7 @@
 ---
-title: AGreen Productions
+title: AGreen Production
 subtitle: Ideation, Writing, Producing, Consulting
-featureImage: /uploads/home.jpg
+featureImage: /uploads/drums.jpg
 ---
 # You know quality production
 
@@ -34,10 +34,6 @@ our combined talents and skills can be most effective.
     </span>
   </p>
 </section>
-
-A 				   First rate artistry
-Green 	  	=         backed by a proven name
-Production  	 	   delivered well
 
 Everyone wants to be moved. We do our best to move 
 people in a positive direction.

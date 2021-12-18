@@ -1,7 +1,7 @@
 ---
 title: Offerings
 subtitle: Ideation, Writing, Producing, Consulting
-featureImage: /uploads/daniel.jpg
+featureImage: /uploads/hand-pick.jpg
 ---
 # Deliverables - Original Creative,  Digital Video & Finished Copy-Driven Content, Programs
 
