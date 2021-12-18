@@ -1,3 +1,4 @@
+/* eslint-disable vue/html-indent */
 <template>
   <div id="contact-page" class="page-wrapper contact-page content-page">
     <site-hero
@@ -5,71 +6,32 @@
       subtitle="There's no conversation without contact"
       image="/uploads/contact-hero.jpg"
     ></site-hero>
-    <main-section theme="sidebar-right">
+    <main-section>
       <template v-slot:default>
         <div class="tile is-ancestor">
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                Hello!
-              </p>
-              <p class="subtitle">
-                What can I do for you?
-              </p>
-              <figure class="image is-1by1 ">
-                <opti-image
-                  :src="require('~/assets/uploads/contact-person.jpg').src"
-                  :srcset="
-                    require('~/assets/uploads/contact-person.jpg').srcSet
-                  "
-                />
-              </figure>
-              <br />
-              <div class="content">
-                <p>
-                  <strong>
-                    Contact Us!
-                  </strong>
-                </p>
-                <p>
-                  We'd love to hear from you
-                  <!-- This form doesn't actually work but would be easy enough to
-                  slap an action on to have it post wherever you'd like. Or put
-                  the netlify attribute on it and have netlify handle all your
-                  form submissions... -->
-                </p>
-              </div>
-            </article>
-          </div>
           <div class="tile is-parent is-8">
             <article class="tile is-child box">
               <!-- <contact-form /> -->
-              <p>
-                Every conversation begins with a single word, but there can be
-                no conversation without contact. Please hit us up!
-                <br />
+              <p class="title">
+                Please hit us up!
+              </p>
+              <p class="subtitle">
+                Every conversation begins with a single word
+              </p>
+              <address>
                 AGreen Production
                 <br />
                 1812 Fillmore Street
                 <br />
                 Hollywood, FL 33139
-                <br />
-                860-460-6765
-                <br />
-                info@AGreenProd.com
-                <br />
-                Agreenprod.com
+              </address>
+              <p><a href="tel:+18604606765">860-460-6765</a></p>
+              <p>
+                <a href="mailto:info@AGreenProd.com">info@AGreenProd.com</a>
               </p>
             </article>
           </div>
         </div>
-      </template>
-      <template v-slot:sidebar>
-        <h3 class="subtitle is-4">
-          Latest Posts
-        </h3>
-        <!-- Latest Posts -->
-        <posts-grid :per-row="1" :number="2" />
       </template>
     </main-section>
   </div>
@@ -77,12 +39,19 @@
 <script>
 // import ContactForm from '~/components/ContactForm'
 export default {
-  name: 'Contact'
-  // head() {
-  //   return {
-  //     title: `Contact | ${this.$siteConfig.siteName}`
-  //   }
-  // }
+  name: 'Contact',
+  head() {
+    return {
+      title: `Contact | ${this.$siteConfig.siteName}`
+    }
+  }
   // components: { ContactForm }
 }
 </script>
+
+<style scoped lang="scss">
+.is-parent {
+  margin: 0 auto;
+  text-align: center;
+}
+</style>

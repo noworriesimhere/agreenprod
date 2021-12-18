@@ -4,95 +4,78 @@
     </site-hero>
     <!-- <main-section theme="sidebar-right"> -->
     <main-section>
-      <template v-slot:default>
-        <!-- All Posts -->
+      <!-- <template v-slot:default>
         <markdown :markdown="$store.state.content" />
       </template>
-      <!-- <template v-slot:default>
+    </main-section> -->
+      <template v-slot:default>
         <div class="content">
-          <h3>Fake Heading</h3>
-          <p>
-            <strong>
-              Edit this page in<code>/pages/about.vue</code>to fit your needs.
-            </strong>
+          <markdown :markdown="$store.state.content" />
+        </div>
+        <div class="alternate-content">
+          <p class="title">
+            Discover the AGreen Difference
           </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+          <br />
+          <p class="subtitle">
+            <strong>Flexibility</strong>
           </p>
-
-          <h3>Another Fake Heading</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+          <p class="description">
+            Confidence that your deliverables will prove their value.
           </p>
-          <quote-card />
-          <h3>Still More Fake Content</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit! Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.
-            <strong>Alias aut facere harum ipsam</strong> quibusdam quidem
-            quisquam saepe? Alias architecto blanditiis consequatur consequuntur
-            dicta ipsa iste modi provident, quod, similique veritatis.
+          <p class="subtitle">
+            <strong>Trust</strong>
+          </p>
+          <p class="description">
+            Per diem, per project or per program pricing available.
+          </p>
+          <p class="subtitle">
+            <strong>Impact</strong>
+          </p>
+          <p class="description">
+            Context is key. Benchmarks established, metrics recorded and then
+            analyzed.
           </p>
         </div>
 
         <div class="tile is-ancestor">
           <div class="tile is-parent">
             <article class="tile is-child box">
-              <p class="title">
-                Cool Stuff We Do
-              </p>
-              <p class="subtitle">
-                Sooo Cool
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
+              <figure class="image is-3by4 ">
+                <opti-image
+                  :src="require('~/assets/uploads/chip-308.jpg').src"
+                  :srcset="require('~/assets/uploads/chip-308.jpg').srcSet"
+                />
               </figure>
             </article>
           </div>
           <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">
-                Other Cool Things
+                Alan "Chip" Green
               </p>
-              <p class="subtitle">
-                Just as cool
+              <p>
+                Chip Green is a Connecticut and Massachusetts native now living,
+                working and entertaining full time In Hollywood, Florida. He was
+                schooled in English, Drama and other humanities at the
+                University of Virginia. With co-creation of two successful
+                agencies, Chip has demonstrated how to combine ‘the gig economy’
+                with agency accountability. A world traveler, Chip brought his
+                talents to South Florida in 2016 with the intention of pursuing
+                more creative personal endeavors, particularly amongst the
+                vibrant Latin and West Indies cultures. With a penchant for
+                ‘novelty’, Chip has a strong track record of building and
+                managing teams to help deliver effective, entertaining events
+                and assets.
               </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                All the cool
-              </p>
-              <p class="subtitle">
-                that is all
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
             </article>
           </div>
         </div>
-      </template>
 
-      <template v-slot:sidebar>
-        <h3 class="subtitle is-4">
-          Latest Posts
-        </h3>
-        <posts-grid :per-row="1" :number="2" />
-      </template> -->
+        <div class="alternate-content">
+          See video: El Amor de Mi Vida
+        </div>
+      </template>
     </main-section>
   </div>
 </template>
@@ -121,3 +104,20 @@ export default {
   // components: { QuoteCard }
 }
 </script>
+
+<style scoped lang="scss">
+.alternate-content {
+  background-color: #f9f9f9;
+  margin: 2rem -30vw;
+  padding: 4rem;
+  text-align: center;
+
+  .title {
+    color: $primary;
+  }
+
+  .description {
+    padding-bottom: 2rem;
+  }
+}
+</style>
