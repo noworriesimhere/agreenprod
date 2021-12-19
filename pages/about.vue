@@ -1,48 +1,67 @@
 <template>
   <div id="about-page" class="page-wrapper about-page content-page">
-    <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
-    </site-hero>
+    <site-hero
+      title="About Us"
+      subtitle="AGreen Production"
+      image="/uploads/Bryan_El_Amor.jpg"
+    ></site-hero>
     <!-- <main-section theme="sidebar-right"> -->
     <main-section>
-      <!-- <template v-slot:default>
-        <markdown :markdown="$store.state.content" />
-      </template>
-    </main-section> -->
       <template v-slot:default>
-        <div class="content">
-          <markdown :markdown="$store.state.content" />
-        </div>
-        <div class="alternate-content">
+        <section class="content">
+          <p>
+            <strong>For more than thirty three and a third years</strong>,
+            writer-producer-director, Alan “Chip” Green, Jr. has supported
+            corporate leaders including IBM, HERE Technologies, CenturyLink and
+            other innovators in the development of high quality video and a wide
+            range of media content across tens of programs and hundreds of
+            projects.
+            <br />
+            <br />
+            With <strong>AGreen Production</strong>, Chip brings that ‘yankee
+            ingenuity’ and innate creativity to globally-targeted projects; ones
+            that might change the world for the better.
+          </p>
+        </section>
+        <section class="alternate-content">
           <p class="title">
             Discover the AGreen Difference
           </p>
-          <br />
-          <p class="subtitle">
-            <strong>Flexibility</strong>
-          </p>
-          <p class="description">
-            <i class="fas fa-magic fa-3x"></i>
-            <br />
-            Confidence that your deliverables will prove their value.
-          </p>
-          <p class="subtitle">
-            <strong>Trust</strong>
-          </p>
-          <p class="description">
-            <i class="fas fa-handshake fa-3x"></i>
-            <br />
-            Per diem, per project or per program pricing available.
-          </p>
-          <p class="subtitle">
-            <strong>Impact</strong>
-          </p>
-          <p class="description">
-            <i class="fas fa-bolt fa-3x"></i>
-            <br />
-            Context is key. Benchmarks established, metrics recorded and then
-            analyzed.
-          </p>
-        </div>
+          <hr />
+          <div class="grid-content">
+            <div class="grid-items">
+              <p class="subtitle">
+                <strong>Flexibility</strong>
+              </p>
+              <p class="description">
+                <i class="fas fa-magic fa-3x"></i>
+                <br />
+                Confidence that your deliverables will prove their value.
+              </p>
+            </div>
+            <div class="grid-items">
+              <p class="subtitle">
+                <strong>Trust</strong>
+              </p>
+              <p class="description">
+                <i class="fas fa-handshake fa-3x"></i>
+                <br />
+                Per diem, per project or per program pricing available.
+              </p>
+            </div>
+            <div class="grid-items">
+              <p class="subtitle">
+                <strong>Impact</strong>
+              </p>
+              <p class="description">
+                <i class="fas fa-bolt fa-3x"></i>
+                <br />
+                Context is key. Benchmarks established, metrics recorded and
+                then analyzed.
+              </p>
+            </div>
+          </div>
+        </section>
 
         <div class="tile is-ancestor">
           <div class="tile is-parent">
@@ -62,7 +81,7 @@
               </p>
               <p>
                 Chip Green is a Connecticut and Massachusetts native now living,
-                working and entertaining full time In Hollywood, Florida. He was
+                working and entertaining full time in Hollywood, Florida. He was
                 schooled in English, Drama and other humanities at the
                 University of Virginia. With co-creation of two successful
                 agencies, Chip has demonstrated how to combine ‘the gig economy’
@@ -88,35 +107,48 @@
 <script>
 // import QuoteCard from '~/components/cards/QuoteCard'
 import { mapState } from 'vuex'
-import { setPageData } from '../helper'
-import Markdown from '~/components/Markdown'
+// import { setPageData } from '../helper'
+// import Markdown from '~/components/Markdown'
 export default {
   name: 'About',
-  // head() {
-  //   return {
-  //     title: `About | ${this.$siteConfig.siteName}`
-  //   }
-  // },
+  head() {
+    return {
+      title: `About | ${this.$siteConfig.siteName}`
+    }
+  },
   components: {
     // NewsLetterFormModal,
-    Markdown
+    // Markdown
   },
   computed: {
     ...mapState(['title', 'subtitle', 'featureImage'])
-  },
-  fetch({ store, params }) {
-    setPageData(store, { resource: 'page', slug: 'about' })
   }
+  // fetch({ store, params }) {
+  //   setPageData(store, { resource: 'page', slug: 'about' })
+  // }
   // components: { QuoteCard }
 }
 </script>
 
 <style scoped lang="scss">
 .alternate-content {
-  background-color: #f9f9f9;
-  margin: 2rem -30vw;
+  margin: 2rem 0;
   padding: 4rem;
   text-align: center;
+
+  .grid-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    @media (max-width: 770px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .grid-items {
+      padding: 1rem;
+    }
+  }
 
   .description {
     padding-bottom: 2rem;
