@@ -1,19 +1,21 @@
 <template>
-  <div id="home-page" class="page-wrapper home-page">
+  <div class="page-wrapper home-page">
     <site-hero
-      title="Listen & Watch"
-      subtitle="subtitle here"
-      image="/uploads/hand-pick.jpg"
+      title="Keep up to date with us"
+      subtitle="AGreen Production"
+      image="/uploads/Bryan_El_Amor.jpg"
     ></site-hero>
+    <button
+      v-if="$siteConfig.newsletter.on"
+      class="button is-primary"
+      @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
+    >
+      Subscribe To Newsletter
+    </button>
     <main-section theme="one-column">
       <template v-slot:default>
-        <main class="content">
-          <p>El Amor de Mi Vida</p>
-
-          <p>Chariots (Steve)</p>
-
-          <p>StepKids - Insecure Troubadour</p>
-        </main>
+        <!-- All Posts -->
+        <posts-grid />
       </template>
       <template v-slot:sidebar>
         Nothing here
@@ -30,10 +32,10 @@
 // import Markdown from '~/components/Markdown'
 
 export default {
-  name: 'ListenWatch',
+  name: 'EventsShowdates',
   head() {
     return {
-      title: `Listen & Watch | ${this.$siteConfig.siteName}`
+      title: `Events & Show Dates | ${this.$siteConfig.siteName}`
     }
   },
   components: {
@@ -44,7 +46,7 @@ export default {
     // ...mapState(['title', 'subtitle', 'featureImage'])
   },
   fetch({ store, params }) {
-    // setPageData(store, { resource: 'page', slug: 'listen-watch' })
+    // setPageData(store, { resource: 'page', slug: 'events-showdates' })
   }
 }
 </script>

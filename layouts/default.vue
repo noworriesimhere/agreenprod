@@ -109,8 +109,16 @@ export default {
 </script>
 
 <style lang="scss">
-@import 'https://pro.fontawesome.com/releases/v5.10.0/css/all.css';
 body {
   overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $primary;
 }
 </style>

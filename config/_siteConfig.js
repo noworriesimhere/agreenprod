@@ -97,12 +97,12 @@ export default {
     theme: null // See card.theme (can be unique for categories if set here)
   },
   // Custom one - idk if i need all this stuff...
-  pages: {
-    on: true,
-    perPage: 6,
-    imageDimensions: null,
-    theme: null
-  },
+  // pages: {
+  //   on: true,
+  //   perPage: 6,
+  //   imageDimensions: null,
+  //   theme: null
+  // },
 
   // Posts
   posts: {

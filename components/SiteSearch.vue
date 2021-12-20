@@ -88,8 +88,8 @@ export default {
       }
       const posts = this.haystack.length
         ? this.haystack
-        : await this.$axios.$get('/api/pages.json')
-      // : await this.$axios.$get('/api/posts.json')
+        : await this.$axios.$get('/api/posts.json')
+      // : await this.$axios.$get('/api/pages.json')
       const matches = posts.filter((match) => {
         return (
           match.content

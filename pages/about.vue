@@ -8,7 +8,7 @@
     <!-- <main-section theme="sidebar-right"> -->
     <main-section>
       <template v-slot:default>
-        <section class="content">
+        <main class="content">
           <p>
             <strong>For more than thirty three and a third years</strong>,
             writer-producer-director, Alan “Chip” Green, Jr. has supported
@@ -16,17 +16,17 @@
             other innovators in the development of high quality video and a wide
             range of media content across tens of programs and hundreds of
             projects.
-            <br />
-            <br />
+          </p>
+          <p>
             With <strong>AGreen Production</strong>, Chip brings that ‘yankee
             ingenuity’ and innate creativity to globally-targeted projects; ones
             that might change the world for the better.
           </p>
-        </section>
+        </main>
         <section class="alternate-content">
-          <p class="title">
+          <h2 class="title">
             Discover the AGreen Difference
-          </p>
+          </h2>
           <hr />
           <div class="grid-content">
             <div class="grid-items">
@@ -76,9 +76,9 @@
           </div>
           <div class="tile is-parent">
             <article class="tile is-child box">
-              <p class="title">
+              <h2 class="title">
                 Alan "Chip" Green
-              </p>
+              </h2>
               <p>
                 Chip Green is a Connecticut and Massachusetts native now living,
                 working and entertaining full time in Hollywood, Florida. He was
@@ -106,7 +106,7 @@
 </template>
 <script>
 // import QuoteCard from '~/components/cards/QuoteCard'
-import { mapState } from 'vuex'
+// import { mapState } from 'vuex'
 // import { setPageData } from '../helper'
 // import Markdown from '~/components/Markdown'
 export default {
@@ -121,7 +121,7 @@ export default {
     // Markdown
   },
   computed: {
-    ...mapState(['title', 'subtitle', 'featureImage'])
+    // ...mapState(['title', 'subtitle', 'featureImage'])
   }
   // fetch({ store, params }) {
   //   setPageData(store, { resource: 'page', slug: 'about' })
