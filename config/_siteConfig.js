@@ -36,7 +36,7 @@ export default {
     },
     {
       name: 'Events / Press',
-      link: '/categories'
+      link: '/events-press'
     },
     {
       name: 'Contact',

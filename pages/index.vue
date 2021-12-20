@@ -46,6 +46,9 @@
             large benefits to targeted audiences.
           </p>
         </main>
+        <section>
+          <posts-grid />
+        </section>
       </template>
     </main-section>
     <!-- <news-letter-form-modal /> -->

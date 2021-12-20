@@ -1,17 +1,14 @@
 <template>
   <div class="page-wrapper home-page">
     <site-hero
-      title="Keep up to date with us"
-      subtitle="AGreen Production"
+      title="Events, Show Dates, Press, Social"
+      subtitle="Keep up to date with us"
       image="/uploads/Bryan_El_Amor.jpg"
-    ></site-hero>
-    <button
-      v-if="$siteConfig.newsletter.on"
-      class="button is-primary"
-      @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
     >
-      Subscribe To Newsletter
-    </button>
+      <button class="button is-primary" @click="$router.push('categories')">
+        View Categories
+      </button>
+    </site-hero>
     <main-section theme="one-column">
       <template v-slot:default>
         <!-- All Posts -->
