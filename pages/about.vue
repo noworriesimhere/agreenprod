@@ -3,7 +3,7 @@
     <site-hero
       title="About Us"
       subtitle="AGreen Production"
-      image="/uploads/Bryan_El_Amor.jpg"
+      image="/uploads/guitar.jpg"
     ></site-hero>
     <!-- <main-section theme="sidebar-right"> -->
     <main-section>

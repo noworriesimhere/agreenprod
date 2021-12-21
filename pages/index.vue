@@ -18,6 +18,7 @@
           <h2>
             You know quality production
           </h2>
+          <hr />
           <p>
             <strong>We</strong> help to deliver quality through
             <strong>creative consultation</strong>,
@@ -45,6 +46,8 @@
             sown. AGreen supports positive karma with initiatives that bring
             large benefits to targeted audiences.
           </p>
+          <h2>Recent Events</h2>
+          <hr />
         </main>
         <section>
           <posts-grid />

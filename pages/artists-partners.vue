@@ -3,7 +3,7 @@
     <site-hero
       title="Featured Artists"
       subtitle="AGreen Production"
-      image="/uploads/Bryan_El_Amor.jpg"
+      image="/uploads/open-mic.jpg"
     ></site-hero>
     <main-section theme="one-column">
       <template v-slot:default>
