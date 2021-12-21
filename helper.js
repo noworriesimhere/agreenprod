@@ -3,10 +3,9 @@ export const setPageData = (store, { resource, slug }) => {
     setTimeout(() => {
       store.dispatch('set', { resource: resource, slug: slug })
       console.log('set timeout called') // deleteme
-    }, 10) // was 350
+    }, 0) // was 350
   } else {
     store.dispatch('set', { resource: resource, slug: slug })
-    console.log('set tiemout NOT called') // deleteme
   }
 }
 
