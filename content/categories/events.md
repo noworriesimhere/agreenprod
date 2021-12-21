@@ -1,5 +1,5 @@
 ---
 name: Events and Show Dates
-image: /logo.svg
+image: /uploads/brickwall-band.jpg
 ---
 All of our events and show dates

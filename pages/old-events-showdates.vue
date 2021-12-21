@@ -1,13 +1,13 @@
 <template>
   <div class="page-wrapper home-page">
     <site-hero
-      title="Events, Show Dates, Press, Social"
-      subtitle="Keep up to date with us"
+      title="Events and Show Dates"
+      subtitle="See our latest events"
       image="/uploads/Bryan_El_Amor.jpg"
     >
-      <button class="button is-primary" @click="$router.push('categories')">
+      <!-- <button class="button is-primary" @click="$router.push('categories')">
         View Categories
-      </button>
+      </button> -->
     </site-hero>
     <main-section theme="one-column">
       <template v-slot:default>
