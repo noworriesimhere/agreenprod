@@ -1,14 +1,14 @@
 <template>
   <div id="post-page" class="page-wrapper post-page">
     <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
-      <span
+      <!-- <span
         v-if="author && $siteConfig.posts.displayAuthor"
         class="author-wrapper"
       >
         <strong>Author:</strong> {{ author }}
-      </span>
+      </span> -->
       <span v-if="date" class="date-wrapper">
-        <strong>Published on:</strong> {{ date }}
+        <strong>Event date:</strong> {{ date }}
       </span>
     </site-hero>
     <main-section :one-column-constrained="true">

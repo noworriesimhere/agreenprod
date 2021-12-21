@@ -35,9 +35,13 @@
             <br />
             Together, we will be part of a creative effort where our combined
             talents and skills can be most effective.
+            <br />
             <span>
-              A First rate artistry Green = backed by a proven name Production
-              delivered well
+              A = First rate artistry
+              <br />
+              Green = backed by a proven name
+              <br />
+              Production = delivered well
             </span>
             <br />
             <br />
