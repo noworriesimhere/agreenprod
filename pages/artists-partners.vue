@@ -9,6 +9,22 @@
       <template v-slot:default>
         <!-- <markdown :markdown="$store.state.content" /> -->
         <main class="content">
+          Chip Green (aka GreenGo, HipsterG and other characters) *
+          Singer-Songwriter-Producer * Chip plays mostly private gigs and
+          smaller venues * Link to music samples Mike Golembeski (aka MikeyG,
+          Mike Francis) * Songwriter-Musician-Producer * Mike plays mostly
+          private gigs with a variety of acts * Link to music samples Wes Malkin
+          (with The Folk Weasels) * Musician-Producer * Videography, Graphics,
+          Editing * Wes supports a wide range of for-profit and not-for-profit
+          projects with a ‘can-do’ spirit * Link to music samples Andrea Preston
+          * Singer-Songwriter * Graphic artist, instructor * Link to music
+          samples Brayan Perez * Trombone Cuban-born, ‘fresh’ * Link to music
+          samples You? * Ready to JOIN the AGreen team? Our Partners Talent
+          agency Graphic design Green Ink - when the budget allows for that
+          extra ‘corporate’ sophistication for your video or other media
+          project.
+        </main>
+        <small>
           According to Florida law, ‘talent agency’ means any person who, for
           compensation, engages in the occupation or business of procuring or
           attempting to procure engagements for an artist. If you would like to
@@ -22,21 +38,8 @@
           Internal Revenue Code or any nonprofit Florida arts organization that
           has received a grant from the Division of Cultural Affairs of the
           Department of State or has participated in the state touring program
-          of the Division of Cultural Affairs. Chip Green (aka GreenGo, HipsterG
-          and other characters) * Singer-Songwriter-Producer * Chip plays mostly
-          private gigs and smaller venues * Link to music samples Mike
-          Golembeski (aka MikeyG, Mike Francis) * Songwriter-Musician-Producer *
-          Mike plays mostly private gigs with a variety of acts * Link to music
-          samples Wes Malkin (with The Folk Weasels) * Musician-Producer *
-          Videography, Graphics, Editing * Wes supports a wide range of
-          for-profit and not-for-profit projects with a ‘can-do’ spirit * Link
-          to music samples Andrea Preston * Singer-Songwriter * Graphic artist,
-          instructor * Link to music samples Brayan Perez * Trombone Cuban-born,
-          ‘fresh’ * Link to music samples You? * Ready to JOIN the AGreen team?
-          Our Partners Talent agency Graphic design Green Ink - when the budget
-          allows for that extra ‘corporate’ sophistication for your video or
-          other media project.
-        </main>
+          of the Division of Cultural Affairs.
+        </small>
       </template>
       <template v-slot:sidebar>
         Nothing here

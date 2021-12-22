@@ -9,6 +9,10 @@
     <main-section>
       <template v-slot:default>
         <main class="content">
+          <h2 class="title">
+            Discover the AGreen Difference
+          </h2>
+          <hr />
           <p>
             <strong>For more than thirty three and a third years</strong>,
             writer-producer-director, Alan “Chip” Green, Jr. has supported
@@ -24,10 +28,6 @@
           </p>
         </main>
         <section class="alternate-content">
-          <h2 class="title">
-            Discover the AGreen Difference
-          </h2>
-          <hr />
           <div class="grid-content">
             <div class="grid-items">
               <p class="subtitle">
@@ -140,7 +140,7 @@ export default {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
-    @media (max-width: 770px) {
+    @media (max-width: 768px) {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr 1fr;
     }
@@ -154,13 +154,9 @@ export default {
     padding-bottom: 2rem;
   }
 
-  .fas {
+  i {
     color: $primary;
     padding-bottom: 2rem;
   }
-}
-
-.title {
-  color: $primary;
 }
 </style>

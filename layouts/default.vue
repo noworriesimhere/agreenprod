@@ -124,5 +124,8 @@ body {
   h6 {
     color: $primary !important;
   } */
+  .title {
+    color: $primary;
+  }
 }
 </style>
