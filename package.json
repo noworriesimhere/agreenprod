@@ -76,8 +76,5 @@
     "vue": "2.6.12",
     "vue-server-renderer": "2.6.12",
     "vue-template-compiler": "2.6.12"
-  },
-  "sideEffects": [
-    "*.vue"
-  ]
+  }
 }
