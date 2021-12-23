@@ -11,7 +11,7 @@ import theCMS from '../cms/netlify/cms'
 export default {
   siteName: 'AGreen Production',
   tagline: 'Independent. Creative. Effective',
-  featureImage: '/uploads/home.jpg',
+  featureImage: '/uploads/drums.jpg',
   logo: 'logo.jpg', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: false,
