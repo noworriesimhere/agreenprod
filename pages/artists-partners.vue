@@ -9,19 +9,54 @@
       <template v-slot:default>
         <!-- <markdown :markdown="$store.state.content" /> -->
         <main class="content">
-          Chip Green (aka GreenGo, HipsterG and other characters) *
-          Singer-Songwriter-Producer * Chip plays mostly private gigs and
-          smaller venues * Link to music samples Mike Golembeski (aka MikeyG,
-          Mike Francis) * Songwriter-Musician-Producer * Mike plays mostly
-          private gigs with a variety of acts * Link to music samples Wes Malkin
-          (with The Folk Weasels) * Musician-Producer * Videography, Graphics,
-          Editing * Wes supports a wide range of for-profit and not-for-profit
-          projects with a ‘can-do’ spirit * Link to music samples Andrea Preston
-          * Singer-Songwriter * Graphic artist, instructor * Link to music
-          samples Brayan Perez * Trombone Cuban-born, ‘fresh’ * Link to music
-          samples You? * Ready to JOIN the AGreen team? Our Partners Talent
-          agency Graphic design Green Ink - when the budget allows for that
-          extra ‘corporate’ sophistication for your video or other media
+          <section class="grid">
+            <generic-card
+              title="Chip Green"
+              image="/uploads/chip-308.jpg"
+              image-dimensions="2x1"
+            >
+              Chip Green (aka GreenGo, HipsterG and other characters) *
+              Singer-Songwriter-Producer * Chip plays mostly private gigs and
+              smaller venues * Link to music samples
+            </generic-card>
+            <generic-card
+              title="Mike Golembeski"
+              image="/uploads/chip-308.jpg"
+              image-dimensions="2x1"
+            >
+              (aka MikeyG, Mike Francis) * Songwriter-Musician-Producer * Mike
+              plays mostly private gigs with a variety of acts * Link to music
+              samples Wes Malkin (with The Folk Weasels) * Musician-Producer *
+              Videography, Graphics, Editing * Wes supports a wide range of
+              for-profit and not-for-profit projects with a ‘can-do’ spirit *
+              Link to music samples
+            </generic-card>
+            <generic-card
+              title="Andrea Preston"
+              image="/uploads/chip-308.jpg"
+              image-dimensions="2x1"
+            >
+              Singer-Songwriter * Graphic artist, instructor * music samples
+            </generic-card>
+            <generic-card
+              title="Brayan Perez"
+              image="/uploads/chip-308.jpg"
+              image-dimensions="2x1"
+            >
+              * Trombone Cuban-born, ‘fresh’ * Link to music samples
+            </generic-card>
+            <generic-card
+              title="You?"
+              image="/uploads/chip-308.jpg"
+              image-dimensions="2x1"
+            >
+              Ready to JOIN the AGreen team?
+            </generic-card>
+          </section>
+          <h2>Our Partners</h2>
+          <hr />
+          Talent agency Graphic design Green Ink - when the budget allows for
+          that extra ‘corporate’ sophistication for your video or other media
           project.
         </main>
         <small>
@@ -54,6 +89,7 @@
 // import { setPageData } from '../helper'
 // import NewsLetterFormModal from '~/components/NewsLetterFormModal'
 // import Markdown from '~/components/Markdown'
+import GenericCard from '~/components/cards/GenericCard'
 
 export default {
   name: 'ArtistsPartners',
@@ -65,9 +101,10 @@ export default {
   components: {
     // NewsLetterFormModal,
     // Markdown
+    GenericCard
   },
   computed: {
-    // ...mapState(['title', 'subtitle', 'featureImage'])
+    GenericCard // ...mapState(['title', 'subtitle', 'featureImage'])
   },
   fetch({ store, params }) {
     // setPageData(store, { resource: 'page', slug: 'artists-partners' })
@@ -75,4 +112,20 @@ export default {
 }
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.content .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2em;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  figure {
+    margin: 0 !important;
+  }
+}
+</style>
