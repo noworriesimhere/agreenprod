@@ -119,4 +119,8 @@ export default {
 .content figure {
   margin: 0;
 }
+
+.grid a {
+  cursor: default;
+}
 </style>

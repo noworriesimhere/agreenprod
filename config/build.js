@@ -8,7 +8,8 @@ const build = {
       use: [{ loader: 'gray-matter-loader' }]
     })
     config.resolve.alias.vue = 'vue/dist/vue.common'
-  }
+  },
+  minimize: false // testing to see if fixes production bug
 }
 if (process.env.NODE_ENV === 'production') {
   build.analyze = true
