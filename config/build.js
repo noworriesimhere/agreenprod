@@ -29,7 +29,6 @@ if (process.env.NODE_ENV === 'production') {
         whitelist: [
           'html',
           'body',
-          'hero',
           'is-1by1',
           'is-5by4',
           'is-5by4',

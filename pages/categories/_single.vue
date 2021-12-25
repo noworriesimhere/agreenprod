@@ -2,7 +2,7 @@
   <div id="category-page" class="page-wrapper category-page">
     <site-hero
       :title="$store.state.name"
-      :subtitle="$store.state.content"
+      :subtitle="$store.state.subtitle"
       :image="$store.state.image"
     />
     <main-section theme="sidebar-right">

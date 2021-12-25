@@ -2,7 +2,6 @@ export const setPageData = (store, { resource, slug }) => {
   if (process.browser) {
     setTimeout(() => {
       store.dispatch('set', { resource: resource, slug: slug })
-      console.log('set timeout called') // deleteme
     }, 0) // was 350
   } else {
     store.dispatch('set', { resource: resource, slug: slug })
