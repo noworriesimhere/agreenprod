@@ -34,6 +34,12 @@
 <script>
 import { setPageData } from '../../helper'
 export default {
+  name: 'Category',
+  head() {
+    return {
+      title: `${this.$store.state.name} | ${this.$siteConfig.siteName}`
+    }
+  },
   data() {
     return {
       allCats: []

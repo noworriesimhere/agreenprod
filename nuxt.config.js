@@ -15,7 +15,7 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#fff' },
+  loading: { color: '#fff', throttle: '2000' },
 
   /*
    ** Headers of the page

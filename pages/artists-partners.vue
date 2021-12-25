@@ -10,46 +10,36 @@
         <!-- <markdown :markdown="$store.state.content" /> -->
         <main class="content">
           <section class="grid">
-            <generic-card
-              title="Chip Green"
-              image="/uploads/chip-308.jpg"
-              image-dimensions="2x1"
-            >
-              Chip Green (aka GreenGo, HipsterG and other characters) *
-              Singer-Songwriter-Producer * Chip plays mostly private gigs and
-              smaller venues * Link to music samples
+            <generic-card title="Chip Green" image="/uploads/chip.jpg">
+              <strong>(aka GreenGo, HipsterG and other characters)</strong>
+              <br />
+              Singer-Songwriter-Producer
+              <br />
+              Chip plays mostly private gigs and smaller venues * Link to music
+              samples
             </generic-card>
-            <generic-card
-              title="Mike Golembeski"
-              image="/uploads/chip-308.jpg"
-              image-dimensions="2x1"
-            >
-              (aka MikeyG, Mike Francis) * Songwriter-Musician-Producer * Mike
-              plays mostly private gigs with a variety of acts * Link to music
-              samples Wes Malkin (with The Folk Weasels) * Musician-Producer *
-              Videography, Graphics, Editing * Wes supports a wide range of
-              for-profit and not-for-profit projects with a ‘can-do’ spirit *
+            <generic-card title="Mike Golembeski" image="/uploads/image1.png">
+              <strong>(aka MikeyG, Mike Francis)</strong>
+              <br />
+              Songwriter-Musician-Producer
+              <br />
+              Mike plays mostly private gigs with a variety of acts * Link to
+              music samples Wes Malkin (with The Folk Weasels) *
+              Musician-Producer * Videography, Graphics, Editing * Wes supports
+              a wide range of for-profit and not-for-profit projects with a
+              ‘can-do’ spirit * Link to music samples
+            </generic-card>
+            <generic-card title="Andrea Preston" image="/uploads/image1.png">
+              Singer-Songwriter
+              <br />
+              Graphic artist, instructor * music samples
+            </generic-card>
+            <generic-card title="Brayan Perez" image="/uploads/image1.png">
+              Trombone Cuban-born, ‘fresh’
+              <br />
               Link to music samples
             </generic-card>
-            <generic-card
-              title="Andrea Preston"
-              image="/uploads/chip-308.jpg"
-              image-dimensions="2x1"
-            >
-              Singer-Songwriter * Graphic artist, instructor * music samples
-            </generic-card>
-            <generic-card
-              title="Brayan Perez"
-              image="/uploads/chip-308.jpg"
-              image-dimensions="2x1"
-            >
-              * Trombone Cuban-born, ‘fresh’ * Link to music samples
-            </generic-card>
-            <generic-card
-              title="You?"
-              image="/uploads/chip-308.jpg"
-              image-dimensions="2x1"
-            >
+            <generic-card title="You?" image="/uploads/image1.png">
               Ready to JOIN the AGreen team?
             </generic-card>
           </section>
@@ -120,12 +110,13 @@ export default {
   gap: 2em;
 
   @media (max-width: 768px) {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
   }
-
-  figure {
-    margin: 0 !important;
-  }
+}
+</style>
+<style>
+.content figure {
+  margin: 0;
 }
 </style>
