@@ -46,7 +46,10 @@ export default {
     }
   },
   fetch({ store, params }) {
-    setPageData(store, { resource: 'category', slug: params.single })
+    // my janky fix
+    setTimeout(() => {
+      setPageData(store, { resource: 'category', slug: params.single })
+    }, 400)
   },
   async created() {
     this.allCats = await this.$cms.category.getAll()
