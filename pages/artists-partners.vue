@@ -9,7 +9,7 @@
       <template v-slot:default>
         <!-- <markdown :markdown="$store.state.content" /> -->
         <main class="content">
-          <section class="grid">
+          <section class="grid artists">
             <generic-card title="Chip Green" image="/uploads/chip.jpg">
               <strong>(aka GreenGo, HipsterG and other characters)</strong>
               <br />
@@ -120,7 +120,7 @@ export default {
   margin: 0;
 }
 
-.grid a {
+.artists a {
   cursor: default;
 }
 </style>

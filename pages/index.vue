@@ -25,17 +25,20 @@
               <strong>creative consultation</strong>,
               <strong>project management</strong> and
               <strong>artist-driven deliverables</strong>.
-              <br />
-              <br />
+            </p>
+            <br />
+            <p>
               <strong>You</strong> strive to deliver ‘classic’, entertaining
               content; material that makes people think and feel on deeper
               levels. That might be as a purveyor or as an artist.
+            </p>
+            <br />
+            <p>
+              <strong>We</strong> want to help you to really reach people.
               <br />
               <br />
-              We want to help you to really reach people.
-              <br />
-              Together, we will be part of a creative effort where our combined
-              talents and skills can be most effective.
+              <strong>Together</strong>, we will be part of a creative effort
+              where our combined talents and skills can be most effective.
             </p>
           </section>
           <section class="alternate-content">
@@ -72,15 +75,28 @@
               </div>
             </div>
           </section>
-          <section>
-            <p>
-              Everyone wants to be moved. We do our best to move people in a
-              positive direction. You’ll enjoy the fruits of every seed you’ve
-              sown. AGreen supports positive karma with initiatives that bring
-              large benefits to targeted audiences.
-            </p>
+          <section class="aside">
+            <div>
+              <p>
+                Everyone wants to be moved. <strong>We</strong> do our best to
+                move people in a positive direction.
+              </p>
+              <br />
+              <p>
+                AGreen supports positive karma with initiatives that bring large
+                benefits to targeted audiences.
+              </p>
+            </div>
+            <div>
+              <h3 class="title">
+                <em>
+                  <strong>You’ll</strong> enjoy the fruits of every seed
+                  <strong>you’ve</strong> sown.
+                </em>
+              </h3>
+            </div>
           </section>
-          <h2>Recent Events</h2>
+          <h2>Events</h2>
           <hr />
         </main>
         <section>
@@ -124,9 +140,12 @@ export default {
 }
 
 .alternate-content {
-  margin: 2rem 0;
   padding: 4rem;
   text-align: center;
+
+  @media (max-width: 768px) {
+    padding: 1.5rem 1rem;
+  }
 
   .grid-content {
     display: grid;
@@ -149,6 +168,17 @@ export default {
   i {
     color: $primary;
     padding-bottom: 2rem;
+  }
+}
+
+.aside {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 3rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
   }
 }
 </style>

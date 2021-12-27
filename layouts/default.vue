@@ -111,10 +111,18 @@ export default {
 <style lang="scss">
 body {
   overflow: hidden;
+
+  .section {
+    padding: 4rem;
+
+    @media (max-width: 500px) {
+      padding: 2rem;
+    }
+  }
 }
 
 .content {
-  text-align: center;
+  /* text-align: center; */
 
   /* h1,
   h2,
@@ -126,6 +134,10 @@ body {
   } */
   .title {
     color: $primary;
+  }
+
+  p {
+    margin-bottom: 0;
   }
 }
 </style>

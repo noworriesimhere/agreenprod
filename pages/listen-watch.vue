@@ -8,11 +8,21 @@
     <main-section theme="one-column">
       <template v-slot:default>
         <main class="content">
-          <p>El Amor de Mi Vida</p>
-
-          <p>Chariots (Steve)</p>
-
-          <p>StepKids - Insecure Troubadour</p>
+          <section>
+            <p>El Amor de Mi Vida</p>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/tpRdnNZrsUI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </section>
+          <section>
+            <p>StepKids - Insecure Troubadour</p>
+          </section>
         </main>
       </template>
       <template v-slot:sidebar>

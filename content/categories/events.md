@@ -1,5 +1,5 @@
 ---
-name: Events and Show Dates
-subtitle: All of our events and show dates
+name: Events
+subtitle: All of our events
 image: /uploads/brickwall-band.jpg
 ---

@@ -77,7 +77,7 @@
           <div class="tile is-parent">
             <article class="tile is-child box">
               <h2 class="title">
-                Alan "Chip" Green
+                Alan "Chip" Green, Jr.
               </h2>
               <p>
                 Chip Green is a Connecticut and Massachusetts native now living,
@@ -132,9 +132,12 @@ export default {
 
 <style scoped lang="scss">
 .alternate-content {
-  margin: 2rem 0;
   padding: 4rem;
   text-align: center;
+
+  @media (max-width: 768px) {
+    padding: 1.5rem 1rem;
+  }
 
   .grid-content {
     display: grid;
