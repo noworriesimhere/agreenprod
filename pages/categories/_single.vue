@@ -36,9 +36,11 @@ import { setPageData } from '../../helper'
 export default {
   name: 'Category',
   head() {
-    return {
-      title: `${this.$store.state.name} | ${this.$siteConfig.siteName}`
-    }
+    setTimeout(() => {
+      return {
+        title: `${this.$store.state.name} | ${this.$siteConfig.siteName}`
+      }
+    }, 350)
   },
   data() {
     return {
@@ -49,7 +51,7 @@ export default {
     // my janky fix
     setTimeout(() => {
       setPageData(store, { resource: 'category', slug: params.single })
-    }, 400)
+    }, 350)
   },
   async created() {
     this.allCats = await this.$cms.category.getAll()
