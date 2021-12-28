@@ -110,7 +110,7 @@ export default {
   gap: 2em;
 
   @media (max-width: 768px) {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
 }

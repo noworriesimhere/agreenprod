@@ -2,23 +2,32 @@
   <div id="home-page" class="page-wrapper home-page">
     <site-hero
       title="Listen & Watch"
-      subtitle="subtitle here"
+      subtitle=""
       image="/uploads/iphone-camera.jpg"
     ></site-hero>
     <main-section theme="one-column">
       <template v-slot:default>
         <main class="content">
           <section>
-            <p>El Amor de Mi Vida</p>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/tpRdnNZrsUI"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <div class="is-ancestor">
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <h2 class="title">
+                    El Amor de Mi Vida
+                  </h2>
+                  <hr />
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/tpRdnNZrsUI"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </article>
+              </div>
+            </div>
           </section>
           <section>
             <p>StepKids - Insecure Troubadour</p>
@@ -62,5 +71,10 @@ export default {
 <style>
 .home-page .under-subtitle {
   border-top: none;
+}
+
+iframe[src*='youtube'] {
+  width: 560px !important;
+  height: 315px !important;
 }
 </style>
