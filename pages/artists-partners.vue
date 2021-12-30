@@ -43,11 +43,26 @@
               Ready to JOIN the AGreen team?
             </generic-card>
           </section>
-          <h2>Our Partners</h2>
-          <hr />
-          Talent agency Graphic design Green Ink - when the budget allows for
-          that extra ‘corporate’ sophistication for your video or other media
-          project.
+          <div class="alternate-content">
+            <h2 class="title">
+              Our Partners
+            </h2>
+            <hr />
+            <div class="grid-content">
+              <div class="grid-items">
+                <figure class="image is-4by3">
+                  <opti-image
+                    :src="require('~/assets/uploads/logogreen.png').src"
+                    :srcset="require('~/assets/uploads/logogreen.png').srcSet"
+                  />
+                </figure>
+                <p class="description">
+                  When the budget allows for that extra ‘corporate’
+                  sophistication for your video or other media project.
+                </p>
+              </div>
+            </div>
+          </div>
         </main>
         <small>
           According to Florida law, ‘talent agency’ means any person who, for
@@ -112,6 +127,30 @@ export default {
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+  }
+}
+.alternate-content {
+  padding: 4rem;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    padding: 1.5rem 1rem;
+  }
+
+  .grid-content {
+    display: grid;
+    place-items: center;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+
+    @media (max-width: 768px) {
+      /* grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr; */
+    }
+
+    .grid-items {
+      padding: 1rem;
+      max-width: 30%;
+    }
   }
 }
 </style>

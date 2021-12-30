@@ -7,7 +7,7 @@
     ></site-hero>
     <main-section theme="one-column">
       <template v-slot:default>
-        <main class="content">
+        <main class="content videos">
           <section>
             <div class="is-ancestor">
               <div class="tile is-parent">
@@ -68,11 +68,11 @@ export default {
 }
 </script>
 
-<style>
-.home-page .under-subtitle {
-  border-top: none;
+<style lang="scss">
+.videos {
+  display: grid;
+  place-items: center;
 }
-
 iframe[src*='youtube'] {
   width: 560px !important;
   height: 315px !important;

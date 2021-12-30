@@ -26,17 +26,15 @@
               <strong>project management</strong> and
               <strong>artist-driven deliverables</strong>.
             </p>
-            <br />
+
             <p>
               <strong>You</strong> strive to deliver ‘classic’, entertaining
               content; material that makes people think and feel on deeper
               levels. That might be as a purveyor or as an artist.
             </p>
-            <br />
+
+            <p><strong>We</strong> want to help you to really reach people.</p>
             <p>
-              <strong>We</strong> want to help you to really reach people.
-              <br />
-              <br />
               <strong>Together</strong>, we will be part of a creative effort
               where our combined talents and skills can be most effective.
             </p>
@@ -81,10 +79,9 @@
                 Everyone wants to be moved. <strong>We</strong> do our best to
                 move people in a positive direction.
               </p>
-              <br />
               <p>
-                AGreen supports positive karma with initiatives that bring large
-                benefits to targeted audiences.
+                AGreen supports <strong>positive karma</strong> with initiatives
+                that bring large benefits to targeted audiences.
               </p>
             </div>
             <div>
