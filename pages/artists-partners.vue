@@ -64,22 +64,6 @@
             </div>
           </div>
         </main>
-        <small>
-          According to Florida law, ‘talent agency’ means any person who, for
-          compensation, engages in the occupation or business of procuring or
-          attempting to procure engagements for an artist. If you would like to
-          engage with any of these artists for personal appearances, please
-          contact the artist directly. AGreen Production represents the efforts
-          of artists as ‘deliverables’, not as ‘artist for hire’. Engagement”
-          means any employment or placement of an artist, where the artist
-          performs in his or her artistic capacity. However, the term
-          “engagement” shall not apply to procuring opera, music, theater, or
-          dance engagements for any organization defined in s. 501(c)(3) of the
-          Internal Revenue Code or any nonprofit Florida arts organization that
-          has received a grant from the Division of Cultural Affairs of the
-          Department of State or has participated in the state touring program
-          of the Division of Cultural Affairs.
-        </small>
       </template>
       <template v-slot:sidebar>
         Nothing here

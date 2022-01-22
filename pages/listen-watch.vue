@@ -26,11 +26,23 @@
                     allowfullscreen
                   ></iframe>
                 </article>
+                <article class="tile is-child box">
+                  <h2 class="title">
+                    Insecure Troubadour
+                  </h2>
+                  <hr />
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/0BTGIjZhUt0"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </article>
               </div>
             </div>
-          </section>
-          <section>
-            <p>StepKids - Insecure Troubadour</p>
           </section>
         </main>
       </template>
@@ -73,8 +85,18 @@ export default {
   display: grid;
   place-items: center;
 }
+
 iframe[src*='youtube'] {
   width: 560px !important;
   height: 315px !important;
+}
+
+.is-parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.is-child {
+  margin: 2em 0 !important;
 }
 </style>
