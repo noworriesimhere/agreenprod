@@ -18,7 +18,7 @@
               Chip plays mostly private gigs and smaller venues * Link to music
               samples
             </generic-card>
-            <generic-card title="Mike Golembeski" image="/uploads/image1.png">
+            <!-- <generic-card title="Mike Golembeski" image="/uploads/image1.png">
               <strong>(aka MikeyG, Mike Francis)</strong>
               <br />
               Songwriter-Musician-Producer
@@ -38,7 +38,7 @@
               Trombone Cuban-born, ‘fresh’
               <br />
               Link to music samples
-            </generic-card>
+            </generic-card> -->
             <generic-card title="You?" image="/uploads/image1.png">
               Ready to JOIN the AGreen team?
             </generic-card>

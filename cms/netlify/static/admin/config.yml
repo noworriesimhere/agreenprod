@@ -2,9 +2,10 @@ backend:
   name: git-gateway
   repo: noworriesimhere/agreenprod
   branch: master # Branch to update (optional; defaults to master)
-  # name: proxy #comment out in production
-  # proxy_url: http://localhost:8081/api/v1 #comment out in production
+#   name: proxy #comment out in production
+#   proxy_url: http://localhost:8081/api/v1 #comment out in production
 # local_backend: true #comment this out in production
+# npx netlify-cms-proxy-server for serving backend locally
 
 # This line should *not* be indented
 media_folder: "assets/uploads" # Media files will be stored in the repo under images/uploads

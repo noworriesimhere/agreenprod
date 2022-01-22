@@ -16,41 +16,75 @@
           <div class="grid">
             <section class="section">
               <h3>Creative Project / Program Development</h3>
-
-              ‘The Angle’, ‘The Look’ Social Media Coaching
+              <p>
+                ‘The Angle’, ‘The Look’
+                <br />
+                Social Media Coaching
+              </p>
 
               <h3>Writing / Editorial Services</h3>
-
-              Promotional / PR Copy Songs/Jingles Fiction Drama
-
+              <p>
+                Promotional / PR Copy
+                <br />
+                Songs / Jingles
+                <br />
+                Fiction
+                <br />
+                Drama
+              </p>
               <h3>Producer Services</h3>
-
-              Song Development; arrangement and recording Video Production
-
+              <p>
+                Song Development; arrangement and recording
+                <br />
+                Video Production
+              </p>
               <h3>Entertainment Deliverables</h3>
-
-              Original Songs and Compositions Original Music Recordings Music
-              Video Productions On-Demand and Live Feeds - Audio and Video
+              <p>
+                Original Songs / Compositions
+                <br />
+                Original Music Recordings
+                <br />
+                Music Video Productions
+                <br />
+                On-Demand / Live Feeds; audio / video
+              </p>
             </section>
             <section class="section">
-              <h3>Marketing and PR Services</h3>
-
-              Brand development Gig and tour promo Social amplification
-              ‘Package’ development and distribution Video News Releases (VNR’s)
+              <h3>Marketing / PR Services</h3>
+              <p>
+                Brand Development
+                <br />
+                Gig / Tour Promo
+                <br />
+                Social Amplification ‘Package’
+                <br />
+                Development / Distribution
+                <br />
+                Video News Releases (VNR’s)
+              </p>
 
               <h3>Live Entertainment / Events</h3>
+              <p>
+                Deployment of talent for specific events / programs
+                <br />
+                Matching performers with gigs
+              </p>
 
-              Deployment of talent for specific events and venues Matching
-              performers with gigs
-
-              <h3>Artist Development and A&R Services</h3>
-
-              Image and on-camera coaching services Artistic Direction and
-              Producer services
+              <h3>Artist Development / A&R Services</h3>
+              <p>
+                Image and on-camera prep services
+                <br />
+                Original Content Development
+              </p>
 
               <h3>Innovation</h3>
-
-              Outside distance events Indoor-outdoor, Hybrid Virtual reality
+              <p>
+                Outside distance events
+                <br />
+                Indoor-outdoor Hybrid
+                <br />
+                Virtual reality
+              </p>
             </section>
           </div>
           <hr />
