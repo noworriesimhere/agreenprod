@@ -15,7 +15,7 @@
       muted
       playsinline
     >
-      <source :src="video" type="video/mp4" />
+      <source :src="responsiveVideo" type="video/mp4" />
     </video>
     <div class="hero-body">
       <div class="container">
@@ -53,6 +53,9 @@ export default {
         return require(`~/assets${this.image}`)
       }
       return { src: this.image, srcSet: '' }
+    },
+    responsiveVideo() {
+      return require(`~/assets${this.video}`)
     },
     computedTheme() {
       if (this.theme === '' && this.$siteConfig.hero.theme) {
