@@ -4,7 +4,7 @@
     <site-hero
       title="Contact Us"
       subtitle="There's no conversation without contact"
-      image="/uploads/contact-us.jpg"
+      video="/uploads/contact-video.webm"
     ></site-hero>
     <main-section>
       <template v-slot:default>

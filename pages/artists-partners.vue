@@ -3,7 +3,7 @@
     <site-hero
       title="Featured Artists"
       subtitle="About The Collection"
-      image="/uploads/open-mic.jpg"
+      video="/uploads/artist-video.webm"
     ></site-hero>
     <main-section theme="one-column">
       <template v-slot:default>

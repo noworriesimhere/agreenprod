@@ -3,7 +3,7 @@
     <site-hero
       title="AGreen Production"
       subtitle="Ideation, Writing, Producing, Consulting"
-      video="/uploads/homevideo.mp4"
+      video="/uploads/home-video.webm"
     ></site-hero>
     <!-- <button
       v-if="$siteConfig.newsletter.on"

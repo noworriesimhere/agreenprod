@@ -3,7 +3,7 @@
     <site-hero
       title="Listen & Watch"
       subtitle=""
-      image="/uploads/iphone-camera.jpg"
+      video="/uploads/listen-video.webm"
     ></site-hero>
     <main-section theme="one-column">
       <template v-slot:default>

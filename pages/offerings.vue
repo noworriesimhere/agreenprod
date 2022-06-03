@@ -3,7 +3,7 @@
     <site-hero
       title="Offerings"
       subtitle="Ideation, Writing, Producing, Consulting"
-      image="/uploads/hand-pick.jpg"
+      video="/uploads/oferings-video.webm"
     ></site-hero>
     <main-section theme="one-column">
       <template v-slot:default>

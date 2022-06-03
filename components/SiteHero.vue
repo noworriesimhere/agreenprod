@@ -155,7 +155,7 @@ video {
   .hero-body {
     position: relative;
     z-index: 2;
-    height:35rem;
+    height: 40rem;
 
     .container {
       height: 100%;

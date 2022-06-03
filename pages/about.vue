@@ -3,7 +3,7 @@
     <site-hero
       title="About Us"
       subtitle="AGreen Production"
-      image="/uploads/guitar.jpg"
+      video="/uploads/about-video.webm"
     ></site-hero>
     <!-- <main-section theme="sidebar-right"> -->
     <main-section>
