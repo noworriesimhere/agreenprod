@@ -3,7 +3,7 @@
     <site-hero
       title="About Us"
       subtitle="AGreen Production"
-      video="/uploads/about-video.webm"
+      video="/uploads/about-video.mp4"
     ></site-hero>
     <!-- <main-section theme="sidebar-right"> -->
     <main-section>

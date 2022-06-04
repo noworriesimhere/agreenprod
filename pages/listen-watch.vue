@@ -3,7 +3,7 @@
     <site-hero
       title="Listen & Watch"
       subtitle=""
-      video="/uploads/listen-video.webm"
+      video="/uploads/listen-video.mp4"
     ></site-hero>
     <main-section theme="one-column">
       <template v-slot:default>
