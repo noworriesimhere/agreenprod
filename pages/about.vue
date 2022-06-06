@@ -27,6 +27,7 @@
             that might change the world for the better.
           </p>
         </main>
+        <br />
         <section class="alternate-content">
           <div class="grid-content">
             <div class="grid-items">
@@ -62,6 +63,58 @@
             </div>
           </div>
         </section>
+
+        <section class="content">
+          <h2 class="title no-bottom-margin">
+            AGreen Supports
+          </h2>
+          <h5>
+            through contribution and-or time:
+          </h5>
+          <hr />
+          <p>
+            <ul>
+              <li>
+                LGBT Youth / Homelessness
+                <ul>
+                  <li>
+                    LGBT Youth - <a href="https://truecolorsunited.org/">True Colors</a>
+                  </li>
+                  <li>
+                    Miami <a href="https://pridelines.org/">Pridelines</a>
+                  </li>
+                  <li>
+                    Broward <a href="https://www.browardoutreachcenter.org/">Outreach</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="https://www.ilrc.org/">Immigrant Legal Resource Center</a>
+              </li>
+              <li>
+                <a href="https://www.greenchimneys.org/">Green Chimneys</a> (a school where kids rescue animals and vice versa)
+              </li>
+              <li>
+                <a href="https://www.alz.org/">Alzheimer's Research</a>
+              </li>
+            </ul>
+          </p>
+        </section>
+
+        <div class="content">
+          <hr />
+          <h3 class="title">
+            <quote>
+              <em>
+                "I think The Beatles are a good communication medium."
+              </em>
+            </quote>
+          </h3>
+          <p>
+            - John Lennon, 1969
+          </p>
+          <hr />
+        </div>
 
         <div class="tile is-ancestor">
           <div class="tile is-parent">
@@ -131,6 +184,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.no-bottom-margin {
+  margin-bottom: 0;
+}
 .alternate-content {
   padding: 4rem;
   text-align: center;
