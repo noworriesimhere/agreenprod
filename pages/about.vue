@@ -31,9 +31,9 @@
         <section class="alternate-content">
           <div class="grid-content">
             <div class="grid-items">
-              <p class="subtitle">
+              <h2 class="subtitle">
                 <strong>Flexibility</strong>
-              </p>
+              </h2>
               <p class="description">
                 <i class="fas fa-magic fa-3x"></i>
                 <br />
@@ -41,9 +41,9 @@
               </p>
             </div>
             <div class="grid-items">
-              <p class="subtitle">
+              <h2 class="subtitle">
                 <strong>Trust</strong>
-              </p>
+              </h2>
               <p class="description">
                 <i class="fas fa-handshake fa-3x"></i>
                 <br />
@@ -51,9 +51,9 @@
               </p>
             </div>
             <div class="grid-items">
-              <p class="subtitle">
+              <h2 class="subtitle">
                 <strong>Impact</strong>
-              </p>
+              </h2>
               <p class="description">
                 <i class="fas fa-bolt fa-3x"></i>
                 <br />
@@ -63,57 +63,58 @@
             </div>
           </div>
         </section>
+        <div class="aside">
+          <section class="content">
+            <h2 class="title no-bottom-margin">
+              AGreen Supports
+            </h2>
+            <h5>
+              through contribution and-or time:
+            </h5>
+            <hr />
+            <p>
+              <ul>
+                <li>
+                  LGBT Youth / Homelessness
+                  <ul>
+                    <li>
+                      LGBT Youth - <a href="https://truecolorsunited.org/">True Colors</a>
+                    </li>
+                    <li>
+                      Miami <a href="https://pridelines.org/">Pridelines</a>
+                    </li>
+                    <li>
+                      Broward <a href="https://www.browardoutreachcenter.org/">Outreach</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="https://www.ilrc.org/">Immigrant Legal Resource Center</a>
+                </li>
+                <li>
+                  <a href="https://www.greenchimneys.org/">Green Chimneys</a> (a school where kids rescue animals and vice versa)
+                </li>
+                <li>
+                  <a href="https://www.alz.org/">Alzheimer's Research</a>
+                </li>
+              </ul>
+            </p>
+          </section>
 
-        <section class="content">
-          <h2 class="title no-bottom-margin">
-            AGreen Supports
-          </h2>
-          <h5>
-            through contribution and-or time:
-          </h5>
-          <hr />
-          <p>
-            <ul>
-              <li>
-                LGBT Youth / Homelessness
-                <ul>
-                  <li>
-                    LGBT Youth - <a href="https://truecolorsunited.org/">True Colors</a>
-                  </li>
-                  <li>
-                    Miami <a href="https://pridelines.org/">Pridelines</a>
-                  </li>
-                  <li>
-                    Broward <a href="https://www.browardoutreachcenter.org/">Outreach</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="https://www.ilrc.org/">Immigrant Legal Resource Center</a>
-              </li>
-              <li>
-                <a href="https://www.greenchimneys.org/">Green Chimneys</a> (a school where kids rescue animals and vice versa)
-              </li>
-              <li>
-                <a href="https://www.alz.org/">Alzheimer's Research</a>
-              </li>
-            </ul>
-          </p>
-        </section>
-
-        <div class="content">
-          <hr />
-          <h3 class="title">
-            <quote>
-              <em>
-                "I think The Beatles are a good communication medium."
-              </em>
-            </quote>
-          </h3>
-          <p>
-            - John Lennon, 1969
-          </p>
-          <hr />
+          <div class="content">
+            <hr />
+            <h3 class="title quote">
+              <quote>
+                <em>
+                  "I think The Beatles are a good communication medium."
+                </em>
+              </quote>
+            </h3>
+            <p>
+              - John Lennon, 1969
+            </p>
+            <hr />
+          </div>
         </div>
 
         <div class="tile is-ancestor">
@@ -132,16 +133,23 @@
               <h2 class="title">
                 Alan "Chip" Green, Jr.
               </h2>
+              <hr />
               <p>
                 Chip Green is a Connecticut and Massachusetts native now living,
                 working and entertaining full time in Hollywood, Florida. He was
                 schooled in English, Drama and other humanities at the
-                University of Virginia. With co-creation of two successful
+                University of Virginia.
+              </p>
+              <p>
+                With co-creation of two successful
                 agencies, Chip has demonstrated how to combine ‘the gig economy’
                 with agency accountability. A world traveler, Chip brought his
                 talents to South Florida in 2016 with the intention of pursuing
                 more creative personal endeavors, particularly amongst the
-                vibrant Latin and West Indies cultures. With a penchant for
+                vibrant Latin and West Indies cultures.
+              </p>
+              <p>
+                With a penchant for
                 ‘novelty’, Chip has a strong track record of building and
                 managing teams to help deliver effective, entertaining events
                 and assets.
@@ -207,6 +215,11 @@ export default {
     .grid-items {
       padding: 1rem;
     }
+    h2.subtitle {
+      strong {
+        font-size: 2.1rem!important;
+      }
+    }
   }
 
   .description {
@@ -216,6 +229,23 @@ export default {
   i {
     color: $primary;
     padding-bottom: 2rem;
+  }
+
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.aside {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
   }
 }
 </style>

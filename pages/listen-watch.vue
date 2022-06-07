@@ -96,7 +96,7 @@ iframe[src*='youtube'] {
   flex-direction: column;
 }
 
-.is-child {
-  margin: 2em 0 !important;
+.tile.is-child.box {
+  margin: 2rem!important;
 }
 </style>

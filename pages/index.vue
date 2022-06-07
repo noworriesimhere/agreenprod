@@ -85,7 +85,7 @@
               </p>
             </div>
             <div>
-              <h3 class="title">
+              <h3 class="title quote">
                 <em>
                   <strong>You’ll</strong> enjoy the fruits of every seed
                   <strong>you’ve</strong> sown.
@@ -93,10 +93,12 @@
               </h3>
             </div>
           </section>
-          <h2>Events</h2>
-          <hr />
         </main>
-        <section>
+        <section class="content">
+          <h2 class="title">
+            Events
+          </h2>
+          <hr />
           <posts-grid />
         </section>
       </template>

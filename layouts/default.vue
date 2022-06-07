@@ -136,8 +136,23 @@ body {
     color: $primary;
   }
 
+  h2.title {
+    font-size: 2.6rem;
+  }
+
+  h2.subtitle {
+    strong {
+      font-size: 2.1rem!important;
+    }
+  }
+
   p {
     margin-bottom: 0;
   }
+
+  .title.quote {
+    font-size: 2rem;
+  }
 }
+
 </style>
