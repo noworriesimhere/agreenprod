@@ -79,7 +79,7 @@ export default {
 <style scoped lang="scss">
 .subtitle {
   opacity: 0.5;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .empty-content-placeholder {
   background: transparent;
@@ -106,9 +106,9 @@ export default {
   display: none;
 }
 .card img {
-  transition: 0.8s ease-in-out all;
+  transition: 0.5s ease-in-out all;
   &:hover {
-    transform: scale(1.02);
+    transform: scale(1.05);
   }
 }
 </style>
