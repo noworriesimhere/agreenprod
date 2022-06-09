@@ -11,30 +11,20 @@
         <main class="content">
           <section class="grid artists">
             <generic-card title="Chip Green" image="/uploads/chip.jpg">
-              <strong>(aka GreenGo, HipsterG and other characters)</strong>
-              <br />
-              Singer-Songwriter-Producer
-              <br />
-              <em>Chip Green</em>, with the assumed name of <em>GreenGo</em>, has been writing songs throughout his life with influences from punk to rockabilly to reggaeton. In this collection,
-
+              <strong>Chip Green</strong>, with the assumed name of <strong>GreenGo</strong>, has been writing songs throughout his life with influences from punk to rockabilly to reggaeton. In this collection,
               Chip brings together traditional Americana songwriting with progressive, Columbian-inspired beds to create a new ‘Florida Sound’, while inviting fellow songwriters to see their songs developed in a novel way.
             </generic-card>
             <generic-card title="Yolanda Harrold" image="/uploads/YolandaHarrold.jpg">
-              <strong>Yolanda Harrold</strong>
-              <br />
-              <br />
-              Yolanda Harrold, appearing as OmegaB, is a master-level performer and coach, with 25+ years of experience in the studio and on stage. She has contributed her harmonic skills to over a thousand studio recordings, supporting a number of high-profile artists, She has worked off-broadway and fronted bands. As a master voice coach, she helps to propel careers in the performing arts with her business. The Star Path (TSP). Yolanda’s pro approach to multi-layered harmony vocals and positive, supportive spirit were true gifts to this project. Yolanda contributes one song of her own (Never Alone) and delivers lead on one of Chip’s (Pain), singing all vocal parts in each.
+              <strong>Yolanda Harrold</strong>, appearing as <strong>OmegaB</strong>, is a master-level performer and coach, with 25+ years of experience in the studio and on stage. She has contributed her harmonic skills to over a thousand studio recordings, supporting a number of high-profile artists, She has worked off-broadway and fronted bands. As a master voice coach, she helps to propel careers in the performing arts with her business. The Star Path (TSP). Yolanda’s pro approach to multi-layered harmony vocals and positive, supportive spirit were true gifts to this project. Yolanda contributes one song of her own (Never Alone) and delivers lead on one of Chip’s (Pain), singing all vocal parts in each.
             </generic-card>
             <generic-card title="Andrea Preston" image="/uploads/Andrea.jpg">
-              Singer-Songwriter
-              <br />
-              Andrea Preston is sharing her ‘new life’ with a fresh voice and smart, honest songwriting. Andrea has taken a leap of faith with this production by allowing GreenGo to create versions of her traditional, piano-based compositions that she might not have otherwise imagined. No one who has seen Andrea perform would expect her to have a ‘hip hop’ song, but here it is. Her music is timeless and ready-made for feature films. Andrea is a dedicated teacher and Mom with a deep well of ‘classic’ songs.
+              <strong>Andrea Preston</strong> is sharing her ‘new life’ with a fresh voice and smart, honest songwriting. Andrea has taken a leap of faith with this production by allowing GreenGo to create versions of her traditional, piano-based compositions that she might not have otherwise imagined. No one who has seen Andrea perform would expect her to have a ‘hip hop’ song, but here it is. Her music is timeless and ready-made for feature films. Andrea is a dedicated teacher and Mom with a deep well of ‘classic’ songs.
             </generic-card>
             <generic-card title="Sista Marybeth Desarle" image="/uploads/SistaMarybeth.jpg">
-              Sista Marybeth Desarle, a product of Brooklynn, NY, has been amazing South Florida audiences with her impressive blues and torch song skills for over 20 years. An accomplished guitarist and songwriter, Marybeth is both a solo performer and leader of the band for a wide range of venues. Often compared to Bonnie Rait, she brings her heart to everything she sings. With a style influenced by Portuguese Fado, Thread Bare is a bold departure for Marybeth, who’s original songs have gravitated toward ballads and rhythm and blues.
+              <strong>Sista Marybeth Desarle</strong>, a product of Brooklynn, NY, has been amazing South Florida audiences with her impressive blues and torch song skills for over 20 years. An accomplished guitarist and songwriter, <strong>Marybeth</strong> is both a solo performer and leader of the band for a wide range of venues. Often compared to Bonnie Rait, she brings her heart to everything she sings. With a style influenced by Portuguese Fado, <strong>Thread Bare</strong> is a bold departure for Marybeth, who’s original songs have gravitated toward ballads and rhythm and blues.
             </generic-card>
             <generic-card title="Pamela Knight" image="/uploads/Pamela.jpg">
-              Pamela Knight is a seasoned professional entertainer who has earned every right to the title of ‘The Diva’. From the time she won the Apollo Theater Amature Competion at the age of 17, Pam has been turning audiences into adoring fans, bringing her powerful five octave voice to a range of standards and dance music. She’s had hits in Europe with infectious dance songs including Respect with Spike. In the past twenty years, Pam has entertained in Europe and North Africa with events, recordings and even a role in a feature film. Today, Pam is wowing new audiences as the hit of South Florida with #PamelaKnightShow.. She co-writes and delivers her awe-inspiring vocal style to the soon-to-be-classic, Dance Now!.
+              <strong>Pamela Knight</strong> is a seasoned professional entertainer who has earned every right to the title of ‘The Diva’. From the time she won the Apollo Theater Amature Competion at the age of 17, Pam has been turning audiences into adoring fans, bringing her powerful five octave voice to a range of standards and dance music. She’s had hits in Europe with infectious dance songs including <a href="https://www.youtube.com/watch?v=zT9xeR4LMvk">Respect</a> with Spike. In the past twenty years, Pam has entertained in Europe and North Africa with events, recordings and even a role in a feature film. Today, Pam is wowing new audiences as the hit of South Florida with #PamelaKnightShow.. She co-writes and delivers her awe-inspiring vocal style to the soon-to-be-classic, <strong>Dance Now!</strong>.
             </generic-card>
             <generic-card title="You?" image="/uploads/image1.png">
               Ready to JOIN the AGreen team?
@@ -46,6 +36,22 @@
             </h2>
             <hr />
             <div class="grid-content">
+              <div class="grid-items">
+                <a href="https://www.facebook.com/greengomusic">
+                  <figure class="image is-4by3">
+                    <opti-image
+                      :src="require('~/assets/uploads/greengo.jpeg').src"
+                    />
+                  </figure>
+                </a>
+                <h3 class="title">
+                  GreenGo Music
+                </h3>
+                <p class="description">
+                  A division of AGreen Production dedicated to creating and
+                  delivering high quality songs, recordings and videos.   Check out our first                                 release: The Collection: Soundtrack for a Life.
+                </p>
+              </div>
               <div class="grid-items">
                 <a href="https://greenink.us.com/">
                   <figure class="image is-4by3">
@@ -63,22 +69,6 @@
                   <br />
                   When the budget allows for that extra ‘corporate’
                   sophistication for your video or other media project.
-                </p>
-              </div>
-              <div class="grid-items">
-                <a href="https://www.facebook.com/greengomusic">
-                  <figure class="image is-4by3">
-                    <opti-image
-                      :src="require('~/assets/uploads/greengo.jpeg').src"
-                    />
-                  </figure>
-                </a>
-                <h3 class="title">
-                  GreenGo Music
-                </h3>
-                <p class="description">
-                  A division of AGreen Production dedicated to creating and
-                  delivering high quality songs, recordings and videos.   Check out our first                                 release: The Collection: Soundtrack for a Life.
                 </p>
               </div>
             </div>
@@ -208,8 +198,13 @@ export default {
   grid-template-rows: 1fr 1fr;
   gap: 2em;
 
-  @media (max-width: 768px) {
+  @media (max-width: 420px) {
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  @media (max-width: 825px) {
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
   }
 }
@@ -225,15 +220,20 @@ export default {
     place-items: center;
     grid-template-columns: 1fr 1fr;
 
-    @media (max-width: 768px) {
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr;
-    }
+    @media (max-width: 825px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
 
     .grid-items {
       padding: 1rem;
-      max-width: 70%;
+      max-width: 100%;
       transition: all .3s ease-in-out;
+      height: 100%;
+
+      @media (max-width: 768px) {
+        max-width: 100%
+      }
     }
 
     .grid-items:hover {
@@ -246,10 +246,15 @@ export default {
     place-items: center;
     grid-template-columns: repeat(3, 1fr);
 
-    @media (max-width: 768px) {
+    @media (max-width: 420px) {
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(5, 1fr);
+      grid-template-rows: auto;
     }
+
+    @media (max-width: 825px) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
 
     .grid-items {
       padding: 1rem;

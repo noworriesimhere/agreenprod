@@ -18,18 +18,18 @@
     <div class="card-content">
       <div class="media">
         <div class="media-content">
-          <nuxt-link :to="link">
-            <h3
-              :class="
-                `title
+          <!-- <nuxt-link :to="link"> -->
+          <h3
+            :class="
+              `title
                 is-5
                 has-text-weight-light
                 ${title ? '' : 'empty-content-placeholder'}`
-              "
-            >
-              {{ title }}
-            </h3>
-            <h4
+            "
+          >
+            {{ title }}
+          </h3>
+          <!-- <h4
               :class="{
                 subtitle: true,
                 'is-6': true,
@@ -37,8 +37,11 @@
               }"
             >
               <slot></slot>
-            </h4>
-          </nuxt-link>
+            </h4> -->
+          <p>
+            <slot></slot>
+          </p>
+          <!-- </nuxt-link> -->
         </div>
       </div>
     </div>
