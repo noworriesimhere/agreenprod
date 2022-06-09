@@ -154,10 +154,6 @@ export default {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr 1fr;
     }
-
-    .grid-items {
-      padding: 1rem;
-    }
   }
 
   .description {
@@ -172,8 +168,8 @@ export default {
 
 .aside {
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  gap: 3rem;
+  grid-template-columns: 3fr 2fr;
+  gap: 2rem;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;

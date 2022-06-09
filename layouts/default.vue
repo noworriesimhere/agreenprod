@@ -1,5 +1,7 @@
 <template>
   <div
+    v-if="show"
+    id="the-parent"
     :class="
       `site-layout-width-${$siteConfig.layout.width} posts-theme-${$siteConfig.posts.theme}`
     "
@@ -14,10 +16,7 @@
 <script>
 import 'animate.css/animate.min.css'
 export default {
-  transition: {
-    name: 'fade',
-    appear: true
-  },
+  transition: 'slide-fade',
   head() {
     return {
       title: `${this.$store.state.title} | ${this.$siteConfig.siteName}`,
@@ -76,7 +75,9 @@ export default {
           icon: 'lightbulb',
           to: { name: 'inspire' }
         }
-      ]
+      ],
+      show: false,
+      showing: ''
     }
   },
   watch: {
@@ -86,6 +87,12 @@ export default {
   },
   mounted() {
     this.$cms.lifeCycleHooks.mounted()
+    this.show = true
+    this.$nextTick().then(() => {
+      setTimeout(() => {
+        document.getElementById('the-parent').classList.add('is-showing')
+      }, 200)
+    })
   },
   beforeCreate() {
     this.$cms.lifeCycleHooks.beforeCreate()
@@ -122,6 +129,15 @@ body {
       padding: 2rem;
     }
   }
+}
+
+#the-parent {
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+
+.is-showing {
+  opacity: 1!important;
 }
 
 .content {

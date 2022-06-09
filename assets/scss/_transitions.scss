@@ -3,14 +3,14 @@
 .page-leave-active {
   transition-property: opacity;
   transition-timing-function: ease-in-out;
-  transition-duration: .35s;
+  transition-duration: .5s;
   & + * + .site-footer{
     opacity:0;
   }
 }
 
 .page-enter,
-.page-leave-to {
+.page-leave-active {
   opacity: 0;
 }
 
