@@ -9,7 +9,7 @@
         <site-logo v-if="$siteConfig.logo === 'logo-component'" />
         <img
           v-else
-          :src="$siteConfig.logo"
+          :src="require('~/assets/uploads/logo.jpg').src"
           :alt="$siteConfig.siteName"
           class="logo"
         />
@@ -75,5 +75,13 @@ export default {
 
 .navbar-menu a {
   display: block;
+}
+
+.is-active {
+  animation: fadeInDown 3s ease-in-out;
+}
+
+.navbar-menu {
+  animation: fadeOutUp 3s ease-in-out;
 }
 </style>
