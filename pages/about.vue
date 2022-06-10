@@ -192,6 +192,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.tile.is-ancestor {
+  @media screen and (max-width: 830px) {
+    flex-direction: column;
+  }
+}
 .no-bottom-margin {
   margin-bottom: 0;
 }

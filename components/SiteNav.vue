@@ -9,7 +9,7 @@
         <site-logo v-if="$siteConfig.logo === 'logo-component'" />
         <img
           v-else
-          :src="require('~/assets/uploads/logo.jpg').src"
+          :src="$siteConfig.logo"
           :alt="$siteConfig.siteName"
           class="logo"
         />
@@ -39,9 +39,9 @@
             {{ item.name }}
           </component>
         </li>
-        <li class="navbar-item site-search-wrapper">
+        <!-- <li class="navbar-item site-search-wrapper">
           <site-search />
-        </li>
+        </li> -->
       </ul>
     </div>
   </nav>
@@ -75,13 +75,5 @@ export default {
 
 .navbar-menu a {
   display: block;
-}
-
-.is-active {
-  animation: fadeInDown 3s ease-in-out;
-}
-
-.navbar-menu {
-  animation: fadeOutUp 3s ease-in-out;
 }
 </style>

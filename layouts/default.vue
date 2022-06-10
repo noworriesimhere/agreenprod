@@ -91,7 +91,7 @@ export default {
     this.$nextTick().then(() => {
       setTimeout(() => {
         document.getElementById('the-parent').classList.add('is-showing')
-      }, 200)
+      }, 100)
     })
   },
   beforeCreate() {
