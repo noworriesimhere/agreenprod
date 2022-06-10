@@ -3,7 +3,7 @@
     <site-hero
       title="AGreen Production"
       subtitle="Ideation, Writing, Producing, Consulting"
-      image="/uploads/drums.jpg"
+      video="/uploads/home-video.mp4"
     ></site-hero>
     <!-- <button
       v-if="$siteConfig.newsletter.on"
@@ -85,7 +85,7 @@
               </p>
             </div>
             <div>
-              <h3 class="title">
+              <h3 class="title quote">
                 <em>
                   <strong>You’ll</strong> enjoy the fruits of every seed
                   <strong>you’ve</strong> sown.
@@ -93,10 +93,12 @@
               </h3>
             </div>
           </section>
-          <h2>Events</h2>
-          <hr />
         </main>
-        <section>
+        <section class="content">
+          <h2 class="title">
+            Events
+          </h2>
+          <hr />
           <posts-grid />
         </section>
       </template>
@@ -152,10 +154,6 @@ export default {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr 1fr;
     }
-
-    .grid-items {
-      padding: 1rem;
-    }
   }
 
   .description {
@@ -170,8 +168,8 @@ export default {
 
 .aside {
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  gap: 3rem;
+  grid-template-columns: 3fr 2fr;
+  gap: 2rem;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;

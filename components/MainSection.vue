@@ -54,6 +54,7 @@ export default {
 <style lang="scss">
 .page-main-section {
   margin-top: 52px;
+background-color: rgba(255, 255, 255, 0.88);
 }
 .hero + .page-main-section {
   margin-top: initial;

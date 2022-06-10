@@ -1,5 +1,7 @@
 <template>
   <div
+    v-if="show"
+    id="the-parent"
     :class="
       `site-layout-width-${$siteConfig.layout.width} posts-theme-${$siteConfig.posts.theme}`
     "
@@ -73,7 +75,9 @@ export default {
           icon: 'lightbulb',
           to: { name: 'inspire' }
         }
-      ]
+      ],
+      show: false,
+      showing: ''
     }
   },
   watch: {
@@ -83,6 +87,12 @@ export default {
   },
   mounted() {
     this.$cms.lifeCycleHooks.mounted()
+    this.show = true
+    this.$nextTick().then(() => {
+      setTimeout(() => {
+        document.getElementById('the-parent').classList.add('is-showing')
+      }, 100)
+    })
   },
   beforeCreate() {
     this.$cms.lifeCycleHooks.beforeCreate()
@@ -121,6 +131,15 @@ body {
   }
 }
 
+#the-parent {
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+
+.is-showing {
+  opacity: 1!important;
+}
+
 .content {
   /* text-align: center; */
 
@@ -136,8 +155,23 @@ body {
     color: $primary;
   }
 
+  h2.title {
+    font-size: 2.6rem;
+  }
+
+  h2.subtitle {
+    strong {
+      font-size: 2.1rem!important;
+    }
+  }
+
   p {
     margin-bottom: 0;
   }
+
+  .title.quote {
+    font-size: 2rem;
+  }
 }
+
 </style>

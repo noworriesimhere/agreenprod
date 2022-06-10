@@ -3,7 +3,7 @@
     <site-hero
       title="Listen & Watch"
       subtitle=""
-      image="/uploads/iphone-camera.jpg"
+      video="/uploads/listen-video.mp4"
     ></site-hero>
     <main-section theme="one-column">
       <template v-slot:default>
@@ -96,7 +96,7 @@ iframe[src*='youtube'] {
   flex-direction: column;
 }
 
-.is-child {
-  margin: 2em 0 !important;
+.tile.is-child.box {
+  margin: 2rem!important;
 }
 </style>

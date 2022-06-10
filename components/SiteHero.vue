@@ -1,11 +1,22 @@
 <template>
   <section :class="`hero is-medium hero-theme-${computedTheme}`">
     <img
+      v-if="image"
       class="hero-bg-img"
       :src="responsiveImage.src"
       :lazy="false"
       :srcset="responsiveImage.srcSet"
     />
+    <video
+      v-if="video"
+      class="hero-bg-img"
+      autoplay
+      loop
+      muted
+      playsinline
+    >
+      <source :src="responsiveVideo" type="video/mp4" />
+    </video>
     <div class="hero-body">
       <div class="container">
         <h1 class="title animated fadeInUp">
@@ -31,7 +42,8 @@ export default {
   props: {
     title: { type: String, default: '' },
     subtitle: { type: String, default: '' },
-    image: { type: String, default: '' },
+    image: { type: String, default: undefined },
+    video: { type: String, default: undefined },
     color: { type: String, default: '#469af0' },
     theme: { type: String, default: '' }
   },
@@ -41,6 +53,9 @@ export default {
         return require(`~/assets${this.image}`)
       }
       return { src: this.image, srcSet: '' }
+    },
+    responsiveVideo() {
+      return require(`~/assets${this.video}`)
     },
     computedTheme() {
       if (this.theme === '' && this.$siteConfig.hero.theme) {
@@ -64,8 +79,9 @@ export default {
 
 .title {
   font-weight: 300;
+  font-size: 2.5rem;
   @media (min-width: 768px) {
-    font-size: 3.2rem;
+    font-size: 5rem;
   }
 }
 .subtitle,
@@ -90,18 +106,24 @@ export default {
   opacity: 0.12;
   animation: blurIn 4.5s ease;
 }
+
+video {
+
+}
 </style>
 <style lang="scss">
 .hero {
   .hero-bg-img {
-    position: absolute;
+    /* position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0; */
     object-fit: cover;
     width: 100%;
     height: 100%;
+    position: fixed!important;
+    z-index: -1;
   }
   .opti-image {
     opacity: 0;
@@ -133,6 +155,15 @@ export default {
   .hero-body {
     position: relative;
     z-index: 2;
+    height: 40rem;
+
+    .container {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
   }
 }
 .hero-theme-dark {
