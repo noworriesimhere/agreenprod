@@ -198,12 +198,12 @@ export default {
   grid-template-rows: 1fr 1fr;
   gap: 2em;
 
-  @media (max-width: 420px) {
+  @media (max-width: 850px) {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
 
-  @media (max-width: 825px) {
+  @media (min-width: 851px) and (max-width: 1200px) {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
   }
@@ -220,7 +220,7 @@ export default {
     place-items: center;
     grid-template-columns: 1fr 1fr;
 
-    @media (max-width: 825px) {
+    @media (max-width: 850px) {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
@@ -251,10 +251,10 @@ export default {
       grid-template-rows: auto;
     }
 
-    @media (max-width: 825px) {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-  }
+    @media (min-width: 421px) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+    }
 
     .grid-items {
       padding: 1rem;
